@@ -1,0 +1,12 @@
+C:\Users\nasko222\AppData\Local\Temporary Projects\WTTG SERIES KEY COMPILER\bin\Debug\WTTG SERIES KEY COMPILER.exe
+C:\Users\nasko222\AppData\Local\Temporary Projects\WTTG SERIES KEY COMPILER\bin\Debug\WTTG SERIES KEY COMPILER.pdb
+C:\Users\nasko222\AppData\Local\Temporary Projects\WTTG SERIES KEY COMPILER\bin\Debug\WTTG SERIES KEY COMPILER.xml
+C:\Users\nasko222\AppData\Local\Temporary Projects\WTTG SERIES KEY COMPILER\obj\x86\Debug\WTTG_SERIES_KEY_COMPILER.Form1.resources
+C:\Users\nasko222\AppData\Local\Temporary Projects\WTTG SERIES KEY COMPILER\obj\x86\Debug\WTTG_SERIES_KEY_COMPILER.Resources.resources
+C:\Users\nasko222\AppData\Local\Temporary Projects\WTTG SERIES KEY COMPILER\obj\x86\Debug\WTTG SERIES KEY COMPILER.vbproj.GenerateResource.Cache
+C:\Users\nasko222\AppData\Local\Temporary Projects\WTTG SERIES KEY COMPILER\obj\x86\Debug\WTTG SERIES KEY COMPILER.exe
+C:\Users\nasko222\AppData\Local\Temporary Projects\WTTG SERIES KEY COMPILER\obj\x86\Debug\WTTG SERIES KEY COMPILER.xml
+C:\Users\nasko222\AppData\Local\Temporary Projects\WTTG SERIES KEY COMPILER\obj\x86\Debug\WTTG SERIES KEY COMPILER.pdb
+F:\WTTG SERIES KEY COMPILER\WTTG SERIES KEY COMPILER\obj\x86\Debug\WTTG SERIES KEY COMPILER.exe
+F:\WTTG SERIES KEY COMPILER\WTTG SERIES KEY COMPILER\obj\x86\Debug\WTTG SERIES KEY COMPILER.xml
+F:\WTTG SERIES KEY COMPILER\WTTG SERIES KEY COMPILER\obj\x86\Debug\WTTG SERIES KEY COMPILER.pdb

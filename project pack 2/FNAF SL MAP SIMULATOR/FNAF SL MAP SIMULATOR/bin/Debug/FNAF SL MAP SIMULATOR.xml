@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FNAFSLMAPSIMULATOR
+</name>
+</assembly>
+<members>
+<member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources._205">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Ballora">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Breaker">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Circus">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Control">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Crawl_Back">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Denied">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Doorway">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Entryway">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Flash_Beacon">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Funtime">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Glass">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Granted">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Map_of_Afton_Robotics_Incorporated">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources.Parts">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="T:FNAF_SL_MAP_SIMULATOR.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
