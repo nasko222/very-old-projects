@@ -1,0 +1,236 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Consolas;}{\f1\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue255;\red43\green145\blue175;\red163\green21\blue21;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs19 Public\cf0  \cf1 Class\cf0  \cf2 Form1\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Form1_Load(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  \cf1 MyBase\cf0 .Load\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  PictureBox1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  PictureBox1.Click\par
+        MsgBox(\cf3 "Hey! ti me klikna az obicham tova :D"\cf0 , vbOKOnly + vbQuestion, \cf3 "I am happy"\cf0 )\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  PictureBox2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  PictureBox2.Click\par
+        MsgBox(\cf3 "Hello World!!!"\cf0 , vbOKOnly + vbInformation, \cf3 "I am ok"\cf0 )\par
+        MsgBox(\cf3 "Hello World!!!"\cf0 , vbOKOnly + vbInformation, \cf3 "I am ok"\cf0 )\par
+        MsgBox(\cf3 "Hello World!!!"\cf0 , vbOKOnly + vbInformation, \cf3 "I am ok"\cf0 )\par
+        MsgBox(\cf3 "Hello World!!!"\cf0 , vbOKCancel + vbInformation, \cf3 "I am ok"\cf0 )\par
+        MsgBox(\cf3 "Hello World!!!"\cf0 , vbOKCancel + vbInformation, \cf3 "I am ok"\cf0 )\par
+        MsgBox(\cf3 "Hello World!!!"\cf0 , vbAbortRetryIgnore + vbCritical, \cf3 "I am ok"\cf0 )\par
+        MsgBox(\cf3 "Just Kidding :) It's OK"\cf0 , vbOKOnly + vbInformation, \cf3 "I am ok"\cf0 )\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  PictureBox3_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  PictureBox3.Click\par
+        MsgBox(\cf3 "ne cukai varhu men we :@"\cf0 , vbOKOnly + 16, \cf3 "I am sad"\cf0 )\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  RadioButton2_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  RadioButton2.CheckedChanged\par
+        \cf1 If\cf0  RadioButton2.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            PictureBox1.Visible = \cf1 True\cf0\par
+            Label1.Visible = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  RadioButton2.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            PictureBox1.Visible = \cf1 False\cf0\par
+            Label1.Visible = \cf1 False\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  RadioButton3_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  RadioButton3.CheckedChanged\par
+        \cf1 If\cf0  RadioButton3.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            PictureBox2.Visible = \cf1 True\cf0\par
+            Label2.Visible = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  RadioButton3.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            PictureBox2.Visible = \cf1 False\cf0\par
+            Label2.Visible = \cf1 False\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  RadioButton4_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  RadioButton4.CheckedChanged\par
+        \cf1 If\cf0  RadioButton4.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            PictureBox3.Visible = \cf1 True\cf0\par
+            Label3.Visible = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  RadioButton4.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            PictureBox3.Visible = \cf1 False\cf0\par
+            Label3.Visible = \cf1 False\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  RadioButton1_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  RadioButton1.CheckedChanged\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Label1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Label1.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Label2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Label2.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Label3_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Label3.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Button1.Click\par
+        MsgBox(\cf3 "Good Bye :)"\cf0 )\par
+        \cf1 End\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Button2.Click\par
+        \cf2 Form2\cf0 .Show()\par
+        \cf1 Me\cf0 .Close()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button3_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Button3.Click\par
+        \cf2 Form3\cf0 .Show()\par
+        \cf1 Me\cf0 .Close()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button4_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Button4.Click\par
+        MsgBox(\cf3 "Version 1.0.9 RELEASED"\cf0 , 0 + vbInformation, \cf3 "About Info"\cf0 )\par
+        MsgBox(\cf3 "Created by nasko222"\cf0 , 0 + vbInformation, \cf3 "About Info"\cf0 )\par
+        MsgBox(\cf3 "gospojo ako ne mi pishete 6 she vi se razvali kompa"\cf0 , vbAbortRetryIgnore + 16, \cf3 "GRE6KA 404"\cf0 )\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  ProgressBar1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  ProgressBar1.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button5_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Button5.Click\par
+        ProgressBar1.Value = 69\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\cf1 End\cf0  \cf1 Class\par
+\cf0\f1\fs22\par
+\cf1\f0\fs19 Public\cf0  \cf1 Class\cf0  \cf2 Form2\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  PictureBox1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  PictureBox1.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Button1.Click\par
+        PictureBox1.Visible = \cf1 True\cf0\par
+        PictureBox2.Visible = \cf1 False\cf0\par
+        PictureBox3.Visible = \cf1 False\cf0\par
+        PictureBox4.Visible = \cf1 False\cf0\par
+        AntiPictureBox1.Visible = \cf1 False\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Button2.Click\par
+        PictureBox1.Visible = \cf1 False\cf0\par
+        PictureBox2.Visible = \cf1 True\cf0\par
+        PictureBox3.Visible = \cf1 False\cf0\par
+        PictureBox4.Visible = \cf1 False\cf0\par
+        AntiPictureBox1.Visible = \cf1 False\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button3_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Button3.Click\par
+        PictureBox1.Visible = \cf1 False\cf0\par
+        PictureBox2.Visible = \cf1 False\cf0\par
+        PictureBox3.Visible = \cf1 True\cf0\par
+        PictureBox4.Visible = \cf1 False\cf0\par
+        AntiPictureBox1.Visible = \cf1 False\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button4_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Button4.Click\par
+        PictureBox1.Visible = \cf1 False\cf0\par
+        PictureBox2.Visible = \cf1 False\cf0\par
+        PictureBox3.Visible = \cf1 False\cf0\par
+        PictureBox4.Visible = \cf1 True\cf0\par
+        AntiPictureBox1.Visible = \cf1 False\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button5_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Button5.Click\par
+        PictureBox1.Visible = \cf1 False\cf0\par
+        PictureBox2.Visible = \cf1 False\cf0\par
+        PictureBox3.Visible = \cf1 False\cf0\par
+        PictureBox4.Visible = \cf1 False\cf0\par
+        AntiPictureBox1.Visible = \cf1 True\cf0\par
+        \cf2 Form1\cf0 .Show()\par
+        \cf1 Me\cf0 .Close()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  PictureBox2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  PictureBox2.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  PictureBox3_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  PictureBox3.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  PictureBox4_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  PictureBox4.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Form2_Leave(\cf1 ByVal\cf0  sender \cf1 As\cf0  \cf1 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  \cf1 Me\cf0 .Leave\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Form2_Load(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  \cf1 MyBase\cf0 .Load\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  AntiPictureBox1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  AntiPictureBox1.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\cf1 End\cf0  \cf1 Class\par
+\cf0\f1\fs22\par
+\cf1\f0\fs19 Public\cf0  \cf1 Class\cf0  \cf2 Form3\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Form3_Leave(\cf1 ByVal\cf0  sender \cf1 As\cf0  \cf1 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  \cf1 Me\cf0 .Leave\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Form3_Load(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  \cf1 MyBase\cf0 .Load\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Button1.Click\par
+        \cf2 Form1\cf0 .Show()\par
+        \cf1 Me\cf0 .Close()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CheckBox1_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  CheckBox1.CheckedChanged\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CheckBox2_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  CheckBox2.CheckedChanged\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CheckBox3_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  CheckBox3.CheckedChanged\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CheckBox4_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  CheckBox4.CheckedChanged\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.\cf2 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.\cf2 EventArgs\cf0 ) \cf1 Handles\cf0  Button2.Click\par
+        \cf1 If\cf0  CheckBox1.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            MsgBox(\cf3 "CheckBox 1 is Checked"\cf0 , 0 + vbInformation, \cf3 "Check Mode"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  CheckBox2.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            MsgBox(\cf3 "CheckBox 2 is Checked"\cf0 , 0 + vbInformation, \cf3 "Check Mode"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  CheckBox3.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            MsgBox(\cf3 "CheckBox 3 is Checked"\cf0 , 0 + vbInformation, \cf3 "Check Mode"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  CheckBox4.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            MsgBox(\cf3 "CheckBox 4 is Checked"\cf0 , 0 + vbInformation, \cf3 "Check Mode"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  CheckBox1.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            \cf1 If\cf0  CheckBox2.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+                \cf1 If\cf0  CheckBox3.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+                    \cf1 If\cf0  CheckBox4.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+                        MsgBox(\cf3 "Everything is CHECKED"\cf0 )\par
+                    \cf1 End\cf0  \cf1 If\cf0\par
+                \cf1 End\cf0  \cf1 If\cf0\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\cf1 End\cf0  \cf1 Class\par
+\cf0\f1\fs22\par
+}
+ 

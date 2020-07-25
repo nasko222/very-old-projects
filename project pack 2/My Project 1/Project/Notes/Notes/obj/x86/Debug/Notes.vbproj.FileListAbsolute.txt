@@ -1,0 +1,19 @@
+C:\Users\TOTO\AppData\Local\Temporary Projects\Notes\bin\Debug\Notes.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Notes\bin\Debug\Notes.pdb
+C:\Users\TOTO\AppData\Local\Temporary Projects\Notes\bin\Debug\Notes.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Notes\obj\x86\Debug\Notes.Form1.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Notes\obj\x86\Debug\Notes.Resources.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Notes\obj\x86\Debug\Notes.vbproj.GenerateResource.Cache
+C:\Users\TOTO\AppData\Local\Temporary Projects\Notes\obj\x86\Debug\Notes.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Notes\obj\x86\Debug\Notes.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Notes\obj\x86\Debug\Notes.pdb
+F:\proekti\drugi\My Project 1\Notes\Notes\obj\x86\Debug\Notes.exe
+F:\proekti\drugi\My Project 1\Notes\Notes\obj\x86\Debug\Notes.xml
+F:\proekti\drugi\My Project 1\Notes\Notes\obj\x86\Debug\Notes.pdb
+F:\proekti\drugi\My Project 1\Notes\Notes\bin\Debug\Notes.exe
+F:\proekti\drugi\My Project 1\Notes\Notes\bin\Debug\Notes.pdb
+F:\proekti\drugi\My Project 1\Notes\Notes\bin\Debug\Notes.xml
+F:\proekti\drugi\My Project 1\Notes\Notes\obj\x86\Debug\Notes.Form1.resources
+F:\proekti\drugi\My Project 1\Notes\Notes\obj\x86\Debug\Notes.Form2.resources
+F:\proekti\drugi\My Project 1\Notes\Notes\obj\x86\Debug\Notes.Resources.resources
+F:\proekti\drugi\My Project 1\Notes\Notes\obj\x86\Debug\Notes.vbproj.GenerateResource.Cache

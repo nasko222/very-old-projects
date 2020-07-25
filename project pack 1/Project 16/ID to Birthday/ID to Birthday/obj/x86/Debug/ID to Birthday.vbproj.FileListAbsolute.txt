@@ -1,0 +1,36 @@
+C:\Users\Student\AppData\Local\Temporary Projects\Zodiac\bin\Debug\Zodiac.exe
+C:\Users\Student\AppData\Local\Temporary Projects\Zodiac\bin\Debug\Zodiac.pdb
+C:\Users\Student\AppData\Local\Temporary Projects\Zodiac\bin\Debug\Zodiac.xml
+C:\Users\Student\AppData\Local\Temporary Projects\Zodiac\obj\x86\Debug\Zodiac.Form1.resources
+C:\Users\Student\AppData\Local\Temporary Projects\Zodiac\obj\x86\Debug\Zodiac.Resources.resources
+C:\Users\Student\AppData\Local\Temporary Projects\Zodiac\obj\x86\Debug\Zodiac.vbproj.GenerateResource.Cache
+C:\Users\Student\AppData\Local\Temporary Projects\Zodiac\obj\x86\Debug\Zodiac.exe
+C:\Users\Student\AppData\Local\Temporary Projects\Zodiac\obj\x86\Debug\Zodiac.xml
+C:\Users\Student\AppData\Local\Temporary Projects\Zodiac\obj\x86\Debug\Zodiac.pdb
+F:\zele\Zodiac\Zodiac\obj\x86\Debug\Zodiac.exe
+F:\zele\Zodiac\Zodiac\obj\x86\Debug\Zodiac.xml
+F:\zele\Zodiac\Zodiac\obj\x86\Debug\Zodiac.pdb
+F:\zele\Zodiac\Zodiac\bin\Debug\Zodiac.exe
+F:\zele\Zodiac\Zodiac\bin\Debug\Zodiac.pdb
+F:\zele\Zodiac\Zodiac\bin\Debug\Zodiac.xml
+F:\zele\Zodiac\Zodiac\obj\x86\Debug\Zodiac.Form1.resources
+F:\zele\Zodiac\Zodiac\obj\x86\Debug\Zodiac.Resources.resources
+F:\zele\Zodiac\Zodiac\obj\x86\Debug\Zodiac.vbproj.GenerateResource.Cache
+I:\zele\Zodiac\Zodiac\obj\x86\Debug\Zodiac.exe
+I:\zele\Zodiac\Zodiac\obj\x86\Debug\Zodiac.xml
+I:\zele\Zodiac\Zodiac\obj\x86\Debug\Zodiac.pdb
+I:\zele\Zodiac\Zodiac\bin\Debug\Zodiac.exe
+I:\zele\Zodiac\Zodiac\bin\Debug\Zodiac.pdb
+I:\zele\Zodiac\Zodiac\bin\Debug\Zodiac.xml
+I:\zele\Zodiac\Zodiac\obj\x86\Debug\Zodiac.Form1.resources
+I:\zele\Zodiac\Zodiac\obj\x86\Debug\Zodiac.Resources.resources
+I:\zele\Zodiac\Zodiac\obj\x86\Debug\Zodiac.vbproj.GenerateResource.Cache
+I:\zele\ID to Birthday\ID to Birthday\bin\Debug\Zodiac.exe
+I:\zele\ID to Birthday\ID to Birthday\bin\Debug\Zodiac.pdb
+I:\zele\ID to Birthday\ID to Birthday\bin\Debug\Zodiac.xml
+I:\zele\ID to Birthday\ID to Birthday\obj\x86\Debug\ID_to_Birthday.Form1.resources
+I:\zele\ID to Birthday\ID to Birthday\obj\x86\Debug\ID_to_Birthday.Resources.resources
+I:\zele\ID to Birthday\ID to Birthday\obj\x86\Debug\ID to Birthday.vbproj.GenerateResource.Cache
+I:\zele\ID to Birthday\ID to Birthday\obj\x86\Debug\Zodiac.exe
+I:\zele\ID to Birthday\ID to Birthday\obj\x86\Debug\Zodiac.xml
+I:\zele\ID to Birthday\ID to Birthday\obj\x86\Debug\Zodiac.pdb

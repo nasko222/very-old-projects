@@ -1,0 +1,9 @@
+F:\proekti\za uchlishte\Project 11\Calories\Calories\bin\Release\Calories.exe
+F:\proekti\za uchlishte\Project 11\Calories\Calories\bin\Release\Calories.pdb
+F:\proekti\za uchlishte\Project 11\Calories\Calories\bin\Release\Calories.xml
+F:\proekti\za uchlishte\Project 11\Calories\Calories\obj\x86\Release\Calories.Form1.resources
+F:\proekti\za uchlishte\Project 11\Calories\Calories\obj\x86\Release\Calories.Resources.resources
+F:\proekti\za uchlishte\Project 11\Calories\Calories\obj\x86\Release\Calories.vbproj.GenerateResource.Cache
+F:\proekti\za uchlishte\Project 11\Calories\Calories\obj\x86\Release\Calories.exe
+F:\proekti\za uchlishte\Project 11\Calories\Calories\obj\x86\Release\Calories.xml
+F:\proekti\za uchlishte\Project 11\Calories\Calories\obj\x86\Release\Calories.pdb

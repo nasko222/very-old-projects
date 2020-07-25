@@ -1,0 +1,12 @@
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calories\bin\Debug\Calories.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calories\bin\Debug\Calories.pdb
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calories\bin\Debug\Calories.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calories\obj\x86\Debug\Calories.Form1.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calories\obj\x86\Debug\Calories.Resources.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calories\obj\x86\Debug\Calories.vbproj.GenerateResource.Cache
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calories\obj\x86\Debug\Calories.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calories\obj\x86\Debug\Calories.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calories\obj\x86\Debug\Calories.pdb
+F:\proekti\za uchlishte\Project 11\Calories\Calories\obj\x86\Debug\Calories.exe
+F:\proekti\za uchlishte\Project 11\Calories\Calories\obj\x86\Debug\Calories.xml
+F:\proekti\za uchlishte\Project 11\Calories\Calories\obj\x86\Debug\Calories.pdb

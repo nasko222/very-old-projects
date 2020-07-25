@@ -1,0 +1,9 @@
+I:\Project 9\PicturesAndBiography\PicturesAndBiography\bin\Release\PicturesAndBiography.exe
+I:\Project 9\PicturesAndBiography\PicturesAndBiography\bin\Release\PicturesAndBiography.pdb
+I:\Project 9\PicturesAndBiography\PicturesAndBiography\bin\Release\PicturesAndBiography.xml
+I:\Project 9\PicturesAndBiography\PicturesAndBiography\obj\x86\Release\PicturesAndBiography.Form1.resources
+I:\Project 9\PicturesAndBiography\PicturesAndBiography\obj\x86\Release\PicturesAndBiography.Resources.resources
+I:\Project 9\PicturesAndBiography\PicturesAndBiography\obj\x86\Release\PicturesAndBiography.vbproj.GenerateResource.Cache
+I:\Project 9\PicturesAndBiography\PicturesAndBiography\obj\x86\Release\PicturesAndBiography.exe
+I:\Project 9\PicturesAndBiography\PicturesAndBiography\obj\x86\Release\PicturesAndBiography.xml
+I:\Project 9\PicturesAndBiography\PicturesAndBiography\obj\x86\Release\PicturesAndBiography.pdb

@@ -1,0 +1,39 @@
+C:\Users\Student\AppData\Local\Temporary Projects\Crossword\bin\Debug\Crossword.exe
+C:\Users\Student\AppData\Local\Temporary Projects\Crossword\bin\Debug\Crossword.pdb
+C:\Users\Student\AppData\Local\Temporary Projects\Crossword\bin\Debug\Crossword.xml
+C:\Users\Student\AppData\Local\Temporary Projects\Crossword\obj\x86\Debug\Crossword.Form1.resources
+C:\Users\Student\AppData\Local\Temporary Projects\Crossword\obj\x86\Debug\Crossword.Resources.resources
+C:\Users\Student\AppData\Local\Temporary Projects\Crossword\obj\x86\Debug\Crossword.vbproj.GenerateResource.Cache
+C:\Users\Student\AppData\Local\Temporary Projects\Crossword\obj\x86\Debug\Crossword.exe
+C:\Users\Student\AppData\Local\Temporary Projects\Crossword\obj\x86\Debug\Crossword.xml
+C:\Users\Student\AppData\Local\Temporary Projects\Crossword\obj\x86\Debug\Crossword.pdb
+C:\Users\Student\Desktop\9z\pizza\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.exe
+C:\Users\Student\Desktop\9z\pizza\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.xml
+C:\Users\Student\Desktop\9z\pizza\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.pdb
+C:\Users\Student\Desktop\9z\pizza\krastavica\Crossword\Crossword\bin\Debug\Crossword.exe
+C:\Users\Student\Desktop\9z\pizza\krastavica\Crossword\Crossword\bin\Debug\Crossword.pdb
+C:\Users\Student\Desktop\9z\pizza\krastavica\Crossword\Crossword\bin\Debug\Crossword.xml
+C:\Users\Student\Desktop\9z\pizza\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.Form1.resources
+C:\Users\Student\Desktop\9z\pizza\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.Resources.resources
+C:\Users\Student\Desktop\9z\pizza\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.vbproj.GenerateResource.Cache
+F:\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.exe
+F:\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.xml
+F:\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.pdb
+F:\krastavica\Crossword\Crossword\bin\Debug\Crossword.exe
+F:\krastavica\Crossword\Crossword\bin\Debug\Crossword.pdb
+F:\krastavica\Crossword\Crossword\bin\Debug\Crossword.xml
+F:\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.Form1.resources
+F:\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.Resources.resources
+F:\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.vbproj.GenerateResource.Cache
+I:\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.exe
+I:\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.xml
+I:\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.pdb
+I:\krastavica\Crossword\Crossword\bin\Debug\Crossword.exe
+I:\krastavica\Crossword\Crossword\bin\Debug\Crossword.pdb
+I:\krastavica\Crossword\Crossword\bin\Debug\Crossword.xml
+I:\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.Form1.resources
+I:\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.Resources.resources
+I:\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.vbproj.GenerateResource.Cache
+F:\proekti\za uchlishte\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.exe
+F:\proekti\za uchlishte\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.xml
+F:\proekti\za uchlishte\krastavica\Crossword\Crossword\obj\x86\Debug\Crossword.pdb

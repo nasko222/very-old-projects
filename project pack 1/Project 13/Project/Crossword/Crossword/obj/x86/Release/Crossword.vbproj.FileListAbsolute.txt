@@ -1,0 +1,9 @@
+I:\krastavica\Crossword\Crossword\bin\Release\Crossword.exe
+I:\krastavica\Crossword\Crossword\bin\Release\Crossword.pdb
+I:\krastavica\Crossword\Crossword\bin\Release\Crossword.xml
+I:\krastavica\Crossword\Crossword\obj\x86\Release\Crossword.Form1.resources
+I:\krastavica\Crossword\Crossword\obj\x86\Release\Crossword.Resources.resources
+I:\krastavica\Crossword\Crossword\obj\x86\Release\Crossword.vbproj.GenerateResource.Cache
+I:\krastavica\Crossword\Crossword\obj\x86\Release\Crossword.exe
+I:\krastavica\Crossword\Crossword\obj\x86\Release\Crossword.xml
+I:\krastavica\Crossword\Crossword\obj\x86\Release\Crossword.pdb

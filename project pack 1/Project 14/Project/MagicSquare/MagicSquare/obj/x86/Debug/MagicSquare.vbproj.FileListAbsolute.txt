@@ -1,0 +1,29 @@
+C:\Users\Student\AppData\Local\Temporary Projects\MagicSquare\bin\Debug\MagicSquare.exe
+C:\Users\Student\AppData\Local\Temporary Projects\MagicSquare\bin\Debug\MagicSquare.pdb
+C:\Users\Student\AppData\Local\Temporary Projects\MagicSquare\bin\Debug\MagicSquare.xml
+C:\Users\Student\AppData\Local\Temporary Projects\MagicSquare\obj\x86\Debug\MagicSquare.Form1.resources
+C:\Users\Student\AppData\Local\Temporary Projects\MagicSquare\obj\x86\Debug\MagicSquare.Resources.resources
+C:\Users\Student\AppData\Local\Temporary Projects\MagicSquare\obj\x86\Debug\MagicSquare.vbproj.GenerateResource.Cache
+C:\Users\Student\AppData\Local\Temporary Projects\MagicSquare\obj\x86\Debug\MagicSquare.exe
+C:\Users\Student\AppData\Local\Temporary Projects\MagicSquare\obj\x86\Debug\MagicSquare.xml
+C:\Users\Student\AppData\Local\Temporary Projects\MagicSquare\obj\x86\Debug\MagicSquare.pdb
+C:\Users\Student\AppData\Local\Temporary Projects\MagicSquare\obj\x86\Debug\MagicSquare.Form2.resources
+F:\domat\MagicSquare\MagicSquare\obj\x86\Debug\MagicSquare.exe
+F:\domat\MagicSquare\MagicSquare\obj\x86\Debug\MagicSquare.xml
+F:\domat\MagicSquare\MagicSquare\obj\x86\Debug\MagicSquare.pdb
+F:\domat\MagicSquare\MagicSquare\bin\Debug\MagicSquare.exe
+F:\domat\MagicSquare\MagicSquare\bin\Debug\MagicSquare.pdb
+F:\domat\MagicSquare\MagicSquare\bin\Debug\MagicSquare.xml
+F:\domat\MagicSquare\MagicSquare\obj\x86\Debug\MagicSquare.Form1.resources
+F:\domat\MagicSquare\MagicSquare\obj\x86\Debug\MagicSquare.Form2.resources
+F:\domat\MagicSquare\MagicSquare\obj\x86\Debug\MagicSquare.Resources.resources
+F:\domat\MagicSquare\MagicSquare\obj\x86\Debug\MagicSquare.vbproj.GenerateResource.Cache
+I:\domat\MagicSquare\MagicSquare\obj\x86\Debug\MagicSquare.exe
+I:\domat\MagicSquare\MagicSquare\obj\x86\Debug\MagicSquare.xml
+I:\domat\MagicSquare\MagicSquare\obj\x86\Debug\MagicSquare.pdb
+I:\domat\MagicSquare\MagicSquare\bin\Debug\MagicSquare.exe
+I:\domat\MagicSquare\MagicSquare\bin\Debug\MagicSquare.pdb
+I:\domat\MagicSquare\MagicSquare\bin\Debug\MagicSquare.xml
+I:\domat\MagicSquare\MagicSquare\obj\x86\Debug\MagicSquare.Form1.resources
+I:\domat\MagicSquare\MagicSquare\obj\x86\Debug\MagicSquare.Resources.resources
+I:\domat\MagicSquare\MagicSquare\obj\x86\Debug\MagicSquare.vbproj.GenerateResource.Cache

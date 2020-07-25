@@ -1,0 +1,9 @@
+I:\Project 8\10Doors\10Doors\bin\Release\10Doors.exe
+I:\Project 8\10Doors\10Doors\bin\Release\10Doors.pdb
+I:\Project 8\10Doors\10Doors\bin\Release\10Doors.xml
+I:\Project 8\10Doors\10Doors\obj\x86\Release\_10Doors.Form1.resources
+I:\Project 8\10Doors\10Doors\obj\x86\Release\_10Doors.Resources.resources
+I:\Project 8\10Doors\10Doors\obj\x86\Release\10Doors.vbproj.GenerateResource.Cache
+I:\Project 8\10Doors\10Doors\obj\x86\Release\10Doors.exe
+I:\Project 8\10Doors\10Doors\obj\x86\Release\10Doors.xml
+I:\Project 8\10Doors\10Doors\obj\x86\Release\10Doors.pdb

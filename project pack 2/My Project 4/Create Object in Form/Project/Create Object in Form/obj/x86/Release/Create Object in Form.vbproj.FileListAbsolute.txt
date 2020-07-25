@@ -1,0 +1,10 @@
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\bin\Release\Create Object in Form.exe
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\bin\Release\Create Object in Form.pdb
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\bin\Release\Create Object in Form.xml
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Release\Create_Object_in_Form.Class1.resources
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Release\Create_Object_in_Form.Class2.resources
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Release\Create_Object_in_Form.Resources.resources
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Release\Create Object in Form.vbproj.GenerateResource.Cache
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Release\Create Object in Form.exe
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Release\Create Object in Form.xml
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Release\Create Object in Form.pdb

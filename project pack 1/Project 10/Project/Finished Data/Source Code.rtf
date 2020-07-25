@@ -1,0 +1,121 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Consolas;}{\f1\fnil\fcharset0 Consolas;}{\f2\fnil\fcharset204 Consolas;}{\f3\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue255;\red43\green145\blue175;\red163\green21\blue21;\red0\green128\blue0;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs19 Public\cf0  \cf1 Class\cf0  \cf2 Form1\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  ListBox1_SelectedIndexChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  ListBox1.SelectedIndexChanged\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  ListBox2_SelectedIndexChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  ListBox2.SelectedIndexChanged\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button1.Click\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Euro"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Euro"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text)\par
+            TextBox2.Text = \cf3 "\f1\'80\f0 "\cf0  + TextBox2.Text\par
+            Label1.Text = \cf3 "\f1\'80\f0 "\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Euro"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Dollar"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text * 1.23)\par
+            TextBox2.Text = \cf3 "$"\cf0  + TextBox2.Text\par
+            Label1.Text = \cf3 "\f1\'80\f0 "\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Euro"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Rubles"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text * 70.84)\par
+            TextBox2.Text = TextBox2.Text + \cf3 " \lang1026\f2\'f0\'f3\'e1\lang1033\f0 "\cf0\par
+            Label1.Text = \cf3 "\f1\'80\f0 "\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Euro"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Leva"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text * 1.95)\par
+            TextBox2.Text = TextBox2.Text + \cf3 " \lang1026\f2\'eb\'e2\lang1033\f0 "\cf0\par
+            Label1.Text = \cf3 "\f1\'80\f0 "\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Dollar"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Euro"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text * 0.81)\par
+            TextBox2.Text = \cf3 "\f1\'80\f0 "\cf0  + TextBox2.Text\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Dollar"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Dollar"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text)\par
+            TextBox2.Text = \cf3 "$"\cf0  + TextBox2.Text\par
+            Label1.Text = \cf3 "$"\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Dollar"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Rubles"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text * 57.504)\par
+            TextBox2.Text = TextBox2.Text + \cf3 " \lang1026\f2\'f0\'f3\'e1\lang1033\f0 "\cf0\par
+            Label1.Text = \cf3 "$"\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Dollar"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Leva"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text * 1.58)\par
+            TextBox2.Text = TextBox2.Text + \cf3 " \lang1026\f2\'eb\'e2\lang1033\f0 "\cf0\par
+            Label1.Text = \cf3 "$"\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Rubles"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Euro"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text * 0.014)\par
+            TextBox2.Text = \cf3 "\f1\'80\f0 "\cf0  + TextBox2.Text\par
+            Label1.Text = \cf3 "\lang1026\f2\'f0\'f3\'e1\lang1033\f0 "\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Rubles"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Dollar"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text * 0.017)\par
+            TextBox2.Text = \cf3 "$"\cf0  + TextBox2.Text\par
+            Label1.Text = \cf3 "\lang1026\f2\'f0\'f3\'e1\lang1033\f0 "\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Rubles"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Rubles"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text)\par
+            TextBox2.Text = TextBox2.Text + \cf3 " \lang1026\f2\'f0\'f3\'e1\lang1033\f0 "\cf0\par
+            Label1.Text = \cf3 "\lang1026\f2\'f0\'f3\'e1\lang1033\f0 "\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Rubles"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Leva"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text * 0.027)\par
+            TextBox2.Text = TextBox2.Text + \cf3 " \lang1026\f2\'eb\'e2\lang1033\f0 "\cf0\par
+            Label1.Text = \cf3 "\lang1026\f2\'f0\'f3\'e1\lang1033\f0 "\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Leva"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Euro"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text * 0.511)\par
+            TextBox2.Text = \cf3 "\f1\'80\f0 "\cf0  + TextBox2.Text\par
+            Label1.Text = \cf3 "\lang1026\f2\'eb\'e2\lang1033\f0 "\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Leva"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Dollar"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text * 0.63)\par
+            TextBox2.Text = \cf3 "$"\cf0  + TextBox2.Text\par
+            Label1.Text = \cf3 "\lang1026\f2\'eb\'e2\lang1033\f0 "\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Leva"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Rubles"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text * 36.236)\par
+            TextBox2.Text = TextBox2.Text + \cf3 " \lang1026\f2\'f0\'f3\'e1\lang1033\f0 "\cf0\par
+            Label1.Text = \cf3 "\lang1026\f2\'eb\'e2\lang1033\f0 "\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 And\cf0  ListBox1.SelectedItem = \cf3 "Leva"\cf0  \cf1 And\cf0  ListBox2.SelectedItem = \cf3 "Leva"\cf0  \cf1 Then\cf0\par
+            TextBox2.Text = FormatNumber(TextBox1.Text)\par
+            TextBox2.Text = TextBox2.Text + \cf3 " \lang1026\f2\'eb\'e2\lang1033\f0 "\cf0\par
+            Label1.Text = \cf3 "\lang1026\f2\'eb\'e2\lang1033\f0 "\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TextBox1_TextChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  TextBox1.TextChanged\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TextBox2_TextChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  TextBox2.TextChanged\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TextBox1_KeyPress(\cf1 ByVal\cf0  sender \cf1 As\cf0  \cf1 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.Windows.Forms.KeyPressEventArgs) \cf1 Handles\cf0  TextBox1.KeyPress\par
+\par
+        \cf4 '97 - 122 = Ascii codes for simple letters\cf0\par
+        \cf4 '65 - 90  = Ascii codes for capital letters\cf0\par
+        \cf4 '48 - 57  = Ascii codes for numbers\cf0\par
+        \cf4 '8 = Backspace\cf0\par
+        \cf4 '46, 47 = ,./\cf0\par
+\par
+        \cf1 If\cf0  Asc(e.KeyChar) <> 8 \cf1 Then\cf0\par
+            \cf1 If\cf0  Asc(e.KeyChar) < 46 \cf1 Or\cf0  Asc(e.KeyChar) > 57 \cf1 Or\cf0  Asc(e.KeyChar) = 47 \cf1 Then\cf0\par
+                e.Handled = \cf1 True\cf0\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\cf1 End\cf0  \cf1 Class\cf0\par
+\par
+\f3\fs22\par
+}
+ 

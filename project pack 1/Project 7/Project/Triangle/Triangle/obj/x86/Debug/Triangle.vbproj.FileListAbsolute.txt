@@ -1,0 +1,12 @@
+C:\Users\TOTO\AppData\Local\Temporary Projects\Triangle\bin\Debug\Triangle.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Triangle\bin\Debug\Triangle.pdb
+C:\Users\TOTO\AppData\Local\Temporary Projects\Triangle\bin\Debug\Triangle.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Triangle\obj\x86\Debug\Triangle.Form1.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Triangle\obj\x86\Debug\Triangle.Resources.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Triangle\obj\x86\Debug\Triangle.vbproj.GenerateResource.Cache
+C:\Users\TOTO\AppData\Local\Temporary Projects\Triangle\obj\x86\Debug\Triangle.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Triangle\obj\x86\Debug\Triangle.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Triangle\obj\x86\Debug\Triangle.pdb
+F:\proekti\za uchlishte\Project 7\Triangle\Triangle\obj\x86\Debug\Triangle.exe
+F:\proekti\za uchlishte\Project 7\Triangle\Triangle\obj\x86\Debug\Triangle.xml
+F:\proekti\za uchlishte\Project 7\Triangle\Triangle\obj\x86\Debug\Triangle.pdb

@@ -1,0 +1,9 @@
+I:\morkov\Properties Work\Properties Work\bin\Release\Properties Work.exe
+I:\morkov\Properties Work\Properties Work\bin\Release\Properties Work.pdb
+I:\morkov\Properties Work\Properties Work\bin\Release\Properties Work.xml
+I:\morkov\Properties Work\Properties Work\obj\x86\Release\Properties_Work.Form1.resources
+I:\morkov\Properties Work\Properties Work\obj\x86\Release\Properties_Work.Resources.resources
+I:\morkov\Properties Work\Properties Work\obj\x86\Release\Properties Work.vbproj.GenerateResource.Cache
+I:\morkov\Properties Work\Properties Work\obj\x86\Release\Properties Work.exe
+I:\morkov\Properties Work\Properties Work\obj\x86\Release\Properties Work.xml
+I:\morkov\Properties Work\Properties Work\obj\x86\Release\Properties Work.pdb

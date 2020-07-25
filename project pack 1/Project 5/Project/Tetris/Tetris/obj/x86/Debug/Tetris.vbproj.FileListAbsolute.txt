@@ -1,0 +1,21 @@
+C:\Users\TOTO\AppData\Local\Temporary Projects\Tetris\bin\Debug\Tetris.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Tetris\bin\Debug\Tetris.pdb
+C:\Users\TOTO\AppData\Local\Temporary Projects\Tetris\bin\Debug\Tetris.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Tetris\obj\x86\Debug\Tetris.Form1.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Tetris\obj\x86\Debug\Tetris.Resources.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Tetris\obj\x86\Debug\Tetris.vbproj.GenerateResource.Cache
+C:\Users\TOTO\AppData\Local\Temporary Projects\Tetris\obj\x86\Debug\Tetris.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Tetris\obj\x86\Debug\Tetris.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Tetris\obj\x86\Debug\Tetris.pdb
+F:\proekti\za uchlishte\Project 5\Tetris\Tetris\obj\x86\Debug\Tetris.exe
+F:\proekti\za uchlishte\Project 5\Tetris\Tetris\obj\x86\Debug\Tetris.xml
+F:\proekti\za uchlishte\Project 5\Tetris\Tetris\obj\x86\Debug\Tetris.pdb
+F:\proekti\za uchlishte\Project 5\Project\Tetris\Tetris\bin\Debug\Tetris.exe
+F:\proekti\za uchlishte\Project 5\Project\Tetris\Tetris\bin\Debug\Tetris.pdb
+F:\proekti\za uchlishte\Project 5\Project\Tetris\Tetris\bin\Debug\Tetris.xml
+F:\proekti\za uchlishte\Project 5\Project\Tetris\Tetris\obj\x86\Debug\Tetris.Form1.resources
+F:\proekti\za uchlishte\Project 5\Project\Tetris\Tetris\obj\x86\Debug\Tetris.Resources.resources
+F:\proekti\za uchlishte\Project 5\Project\Tetris\Tetris\obj\x86\Debug\Tetris.vbproj.GenerateResource.Cache
+F:\proekti\za uchlishte\Project 5\Project\Tetris\Tetris\obj\x86\Debug\Tetris.exe
+F:\proekti\za uchlishte\Project 5\Project\Tetris\Tetris\obj\x86\Debug\Tetris.xml
+F:\proekti\za uchlishte\Project 5\Project\Tetris\Tetris\obj\x86\Debug\Tetris.pdb

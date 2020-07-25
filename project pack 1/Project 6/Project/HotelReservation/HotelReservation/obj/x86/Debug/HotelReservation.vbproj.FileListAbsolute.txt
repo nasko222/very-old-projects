@@ -1,0 +1,27 @@
+C:\Users\Student\AppData\Local\Temporary Projects\HotelReservation\bin\Debug\HotelReservation.exe
+C:\Users\Student\AppData\Local\Temporary Projects\HotelReservation\bin\Debug\HotelReservation.pdb
+C:\Users\Student\AppData\Local\Temporary Projects\HotelReservation\bin\Debug\HotelReservation.xml
+C:\Users\Student\AppData\Local\Temporary Projects\HotelReservation\obj\x86\Debug\HotelReservation.Form1.resources
+C:\Users\Student\AppData\Local\Temporary Projects\HotelReservation\obj\x86\Debug\HotelReservation.Resources.resources
+C:\Users\Student\AppData\Local\Temporary Projects\HotelReservation\obj\x86\Debug\HotelReservation.vbproj.GenerateResource.Cache
+C:\Users\Student\AppData\Local\Temporary Projects\HotelReservation\obj\x86\Debug\HotelReservation.exe
+C:\Users\Student\AppData\Local\Temporary Projects\HotelReservation\obj\x86\Debug\HotelReservation.xml
+C:\Users\Student\AppData\Local\Temporary Projects\HotelReservation\obj\x86\Debug\HotelReservation.pdb
+C:\Users\Student\Desktop\9z\хотел\HotelReservation\HotelReservation\obj\x86\Debug\HotelReservation.exe
+C:\Users\Student\Desktop\9z\хотел\HotelReservation\HotelReservation\obj\x86\Debug\HotelReservation.xml
+C:\Users\Student\Desktop\9z\хотел\HotelReservation\HotelReservation\obj\x86\Debug\HotelReservation.pdb
+C:\Users\Student\Desktop\9z\хотел\HotelReservation\HotelReservation\bin\Debug\HotelReservation.exe
+C:\Users\Student\Desktop\9z\хотел\HotelReservation\HotelReservation\bin\Debug\HotelReservation.pdb
+C:\Users\Student\Desktop\9z\хотел\HotelReservation\HotelReservation\bin\Debug\HotelReservation.xml
+C:\Users\Student\Desktop\9z\хотел\HotelReservation\HotelReservation\obj\x86\Debug\HotelReservation.Form1.resources
+C:\Users\Student\Desktop\9z\хотел\HotelReservation\HotelReservation\obj\x86\Debug\HotelReservation.Resources.resources
+C:\Users\Student\Desktop\9z\хотел\HotelReservation\HotelReservation\obj\x86\Debug\HotelReservation.vbproj.GenerateResource.Cache
+I:\хотел\HotelReservation\HotelReservation\bin\Debug\HotelReservation.exe
+I:\хотел\HotelReservation\HotelReservation\bin\Debug\HotelReservation.pdb
+I:\хотел\HotelReservation\HotelReservation\bin\Debug\HotelReservation.xml
+I:\хотел\HotelReservation\HotelReservation\obj\x86\Debug\HotelReservation.Form1.resources
+I:\хотел\HotelReservation\HotelReservation\obj\x86\Debug\HotelReservation.Resources.resources
+I:\хотел\HotelReservation\HotelReservation\obj\x86\Debug\HotelReservation.vbproj.GenerateResource.Cache
+I:\хотел\HotelReservation\HotelReservation\obj\x86\Debug\HotelReservation.exe
+I:\хотел\HotelReservation\HotelReservation\obj\x86\Debug\HotelReservation.xml
+I:\хотел\HotelReservation\HotelReservation\obj\x86\Debug\HotelReservation.pdb

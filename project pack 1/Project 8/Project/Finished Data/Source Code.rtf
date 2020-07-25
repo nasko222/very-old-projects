@@ -1,0 +1,324 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Consolas;}{\f1\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue255;\red43\green145\blue175;\red163\green21\blue21;\red0\green128\blue0;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs19 Public\cf0  \cf1 Class\cf0  \cf2 Form1\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Form1_Load(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  \cf1 MyBase\cf0 .Load\par
+        MinimizeBox = \cf1 False\cf0\par
+        MaximizeBox = \cf1 False\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Label1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Label1.Click\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 1"\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "1/10"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 2"\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "2/10"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 3"\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "3/10"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 4"\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "4/10"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 5"\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "5/10"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 6"\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "6/10"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 7"\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "7/10"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 8"\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "8/10"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 9"\cf0  \cf1 Then\cf0  \cf4 'not\cf0\par
+            MessageBox.Show(\cf3 "9/10"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Last Level"\cf0  \cf1 Then\cf0  \cf4 'notnot\cf0\par
+            MessageBox.Show(\cf3 "10/10"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Door1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Door1.Click\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Last Level"\cf0  \cf1 Then\cf0  \cf4 'more\cf0\par
+            \cf4 'something\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 9"\cf0  \cf1 Then\cf0  \cf4 'more\cf0\par
+            MessageBox.Show(\cf3 "More levels soon..."\cf0 )\par
+            \cf1 End\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 8"\cf0  \cf1 And\cf0  MiniButton1.Enabled = \cf1 False\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "You have finished this level!"\cf0 )\par
+            Label1.Text = \cf3 "Level 9"\cf0\par
+            MiniButton1.Hide()\par
+        \cf1 ElseIf\cf0  MiniButton1.Enabled = \cf1 True\cf0  \cf1 And\cf0  \cf1 Not\cf0  MiniButton1.Location = \cf1 New\cf0  Point(136, 291) \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "No Button!"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 7"\cf0  \cf1 And\cf0  PictureBox2.Enabled = \cf1 False\cf0  \cf1 And\cf0  TextBox2.Text = \cf3 "2018"\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "You have finished this level!"\cf0 )\par
+            TextBox2.Hide()\par
+            MiniButton1.Visible = \cf1 True\cf0\par
+            Label1.Text = \cf3 "Level 8"\cf0\par
+        \cf1 ElseIf\cf0  PictureBox2.Enabled = \cf1 True\cf0  \cf1 And\cf0  PictureBox2.Visible = \cf1 True\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "Broken!"\cf0 )\par
+        \cf1 ElseIf\cf0  \cf1 Not\cf0  TextBox2.Text = \cf3 "2018"\cf0  \cf1 And\cf0  PictureBox2.Enabled = \cf1 False\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "Invalid Numbers! (try year)"\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 6"\cf0  \cf1 And\cf0  TrackBar1.Value >= 3 \cf1 And\cf0  TrackBar1.Value <= 7 \cf1 And\cf0  TrackBar2.Value >= 5 \cf1 And\cf0  TrackBar2.Value <= 8 \cf1 And\cf0  TrackBar3.Value >= 9 \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "You have finished this level!"\cf0 )\par
+            TrackBar1.Hide()\par
+            TrackBar2.Hide()\par
+            TrackBar3.Hide()\par
+            TrackBar1.Enabled = \cf1 False\cf0\par
+            PictureBox2.Visible = \cf1 True\cf0\par
+            TextBox2.Visible = \cf1 True\cf0\par
+            Label1.Text = \cf3 "Level 7"\cf0\par
+        \cf1 ElseIf\cf0  TrackBar1.Value < 3 \cf1 Or\cf0  TrackBar1.Value > 7 \cf1 Or\cf0  TrackBar2.Value < 5 \cf1 Or\cf0  TrackBar2.Value > 8 \cf1 Or\cf0  TrackBar3.Value < 9 \cf1 Then\cf0\par
+            \cf1 If\cf0  TrackBar1.Enabled = \cf1 True\cf0  \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "Invalid Settings!"\cf0 )\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 5"\cf0  \cf1 And\cf0  TextBox1.Enabled = \cf1 True\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "Error!"\cf0 )\par
+        \cf1 ElseIf\cf0  TextBox1.Enabled = \cf1 False\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "You have finished this level!"\cf0 )\par
+            TextBox1.Hide()\par
+            CodeNumber1.Hide()\par
+            CodeNumber2.Hide()\par
+            CodeNumber3.Hide()\par
+            CodeNumber4.Hide()\par
+            CodeNumber5.Hide()\par
+            CodeNumber6.Hide()\par
+            CodeNumber7.Hide()\par
+            CodeNumber8.Hide()\par
+            CodeNumber9.Hide()\par
+            CodeNumber10.Hide()\par
+            CodeNumber11.Hide()\par
+            CodeNumber12.Hide()\par
+            TextBox1.Enabled = \cf1 True\cf0\par
+            TextBox1.Clear()\par
+            TrackBar1.Visible = \cf1 True\cf0\par
+            TrackBar2.Visible = \cf1 True\cf0\par
+            TrackBar3.Visible = \cf1 True\cf0\par
+            TrackBar1.Enabled = \cf1 True\cf0\par
+            Label1.Text = \cf3 "Level 6"\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 4"\cf0  \cf1 And\cf0  Code1.Checked = \cf1 True\cf0  \cf1 And\cf0  Code2.Checked = \cf1 False\cf0  \cf1 And\cf0  Code3.Checked = \cf1 True\cf0  \cf1 And\cf0  Code1.Enabled = \cf1 True\cf0  \cf1 And\cf0  Code2.Enabled = \cf1 True\cf0  \cf1 And\cf0  Code3.Enabled = \cf1 True\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "You have finished this level!"\cf0 )\par
+            Code1.Checked = \cf1 False\cf0\par
+            Code1.Enabled = \cf1 False\cf0\par
+            Code1.Hide()\par
+            Code2.Checked = \cf1 False\cf0\par
+            Code2.Enabled = \cf1 False\cf0\par
+            Code2.Hide()\par
+            Code3.Checked = \cf1 False\cf0\par
+            Code3.Enabled = \cf1 False\cf0\par
+            Code3.Hide()\par
+            TextBox1.Visible = \cf1 True\cf0\par
+            CodeNumber1.Visible = \cf1 True\cf0\par
+            CodeNumber2.Visible = \cf1 True\cf0\par
+            CodeNumber3.Visible = \cf1 True\cf0\par
+            CodeNumber4.Visible = \cf1 True\cf0\par
+            CodeNumber5.Visible = \cf1 True\cf0\par
+            CodeNumber6.Visible = \cf1 True\cf0\par
+            CodeNumber7.Visible = \cf1 True\cf0\par
+            CodeNumber8.Visible = \cf1 True\cf0\par
+            CodeNumber9.Visible = \cf1 True\cf0\par
+            CodeNumber10.Visible = \cf1 True\cf0\par
+            CodeNumber11.Visible = \cf1 True\cf0\par
+            CodeNumber12.Visible = \cf1 True\cf0\par
+            Label1.Text = \cf3 "Level 5"\cf0\par
+        \cf1 ElseIf\cf0  Code1.Checked = \cf1 False\cf0  \cf1 Or\cf0  Code2.Checked = \cf1 True\cf0  \cf1 Or\cf0  Code3.Checked = \cf1 False\cf0  \cf1 Then\cf0\par
+            \cf1 If\cf0  Code1.Enabled = \cf1 True\cf0  \cf1 And\cf0  Code2.Enabled = \cf1 True\cf0  \cf1 And\cf0  Code3.Enabled = \cf1 True\cf0  \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "Wrong Code!"\cf0 )\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 3"\cf0  \cf1 And\cf0  ProgressBar1.Value <= 98 \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "No Energy!"\cf0 )\par
+        \cf1 ElseIf\cf0  ProgressBar1.Value > 98 \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "You have finished this level!"\cf0 )\par
+            Label1.Text = \cf3 "Level 4"\cf0\par
+            ProgressBar1.Visible = \cf1 False\cf0\par
+            Button1.Visible = \cf1 False\cf0\par
+            ProgressBar1.Value = 0\par
+            Code1.Visible = \cf1 True\cf0\par
+            Code2.Visible = \cf1 True\cf0\par
+            Code3.Visible = \cf1 True\cf0\par
+            Code1.Enabled = \cf1 True\cf0\par
+            Code2.Enabled = \cf1 True\cf0\par
+            Code3.Enabled = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 2"\cf0  \cf1 And\cf0  PictureBox1.Enabled = \cf1 True\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "Locked!"\cf0 )\par
+        \cf1 ElseIf\cf0  PictureBox1.Enabled = \cf1 False\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "You have finished this level!"\cf0 )\par
+            Label1.Text = \cf3 "Level 3"\cf0\par
+            Button1.Visible = \cf1 True\cf0\par
+            ProgressBar1.Visible = \cf1 True\cf0\par
+            PictureBox1.Enabled = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Label1.Text = \cf3 "Level 1"\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "You have finished this level!"\cf0 )\par
+            Label1.Text = \cf3 "Level 2"\cf0\par
+            PictureBox1.Visible = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  PictureBox1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  PictureBox1.Click\par
+        PictureBox1.Visible = \cf1 False\cf0\par
+        PictureBox1.Enabled = \cf1 False\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  ProgressBar1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  ProgressBar1.Click\par
+        \cf1 If\cf0  ProgressBar1.Value > 98 \cf1 Then\cf0\par
+            Button1.AllowDrop = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button1.Click\par
+        \cf1 If\cf0  Button1.AllowDrop = \cf1 False\cf0  \cf1 Then\cf0\par
+            ProgressBar1.Increment(+2)\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CodeNumber1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CodeNumber1.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CodeNumber2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CodeNumber2.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CodeNumber3_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CodeNumber3.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CodeNumber4_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CodeNumber4.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CodeNumber5_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CodeNumber5.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CodeNumber6_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CodeNumber6.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CodeNumber7_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CodeNumber7.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CodeNumber8_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CodeNumber8.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CodeNumber9_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CodeNumber9.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CodeNumber10_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CodeNumber10.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CodeNumber11_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CodeNumber11.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CodeNumber12_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CodeNumber12.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TextBox1_TextChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  TextBox1.TextChanged\par
+        \cf1 If\cf0  TextBox1.Text = \cf3 "497851"\cf0  \cf1 Then\cf0\par
+            TextBox1.Enabled = \cf1 False\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TextBox1_KeyPress(\cf1 ByVal\cf0  sender \cf1 As\cf0  \cf1 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.Windows.Forms.KeyPressEventArgs) \cf1 Handles\cf0  TextBox1.KeyPress\par
+\par
+        \cf4 '97 - 122 = Ascii codes for simple letters\cf0\par
+        \cf4 '65 - 90  = Ascii codes for capital letters\cf0\par
+        \cf4 '48 - 57  = Ascii codes for numbers\cf0\par
+\par
+        \cf1 If\cf0  Asc(e.KeyChar) <> 8 \cf1 Then\cf0\par
+            \cf1 If\cf0  Asc(e.KeyChar) < 48 \cf1 Or\cf0  Asc(e.KeyChar) > 57 \cf1 Then\cf0\par
+                e.Handled = \cf1 True\cf0\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TrackBar1_Scroll(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  TrackBar1.Scroll\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TrackBar2_Scroll(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  TrackBar2.Scroll\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TrackBar3_Scroll(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  TrackBar3.Scroll\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TextBox2_KeyPress(\cf1 ByVal\cf0  sender \cf1 As\cf0  \cf1 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.Windows.Forms.KeyPressEventArgs) \cf1 Handles\cf0  TextBox2.KeyPress\par
+\par
+        \cf4 '97 - 122 = Ascii codes for simple letters\cf0\par
+        \cf4 '65 - 90  = Ascii codes for capital letters\cf0\par
+        \cf4 '48 - 57  = Ascii codes for numbers\cf0\par
+\par
+        \cf1 If\cf0  Asc(e.KeyChar) <> 8 \cf1 Then\cf0\par
+            \cf1 If\cf0  Asc(e.KeyChar) < 48 \cf1 Or\cf0  Asc(e.KeyChar) > 57 \cf1 Then\cf0\par
+                e.Handled = \cf1 True\cf0\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  PictureBox2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  PictureBox2.Click\par
+        PictureBox2.Visible = \cf1 False\cf0\par
+        PictureBox2.Enabled = \cf1 False\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TextBox2_TextChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  TextBox2.TextChanged\par
+        \cf1 If\cf0  \cf1 Not\cf0  PictureBox2.Enabled = \cf1 False\cf0  \cf1 Then\cf0\par
+            TextBox2.Clear()\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  TextBox2.Text = \cf3 "2018"\cf0  \cf1 Then\cf0\par
+            TextBox2.Enabled = \cf1 False\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  MiniButton1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  MiniButton1.Click\par
+        \cf4 '136 291\cf0\par
+        \cf4 '203 234\cf0\par
+        \cf4 '202 131\cf0\par
+        \cf4 '172 52\cf0\par
+        \cf4 '116 22\cf0\par
+        \cf4 '57 142\cf0\par
+        \cf4 '87 167\cf0\par
+        \cf1 If\cf0  MiniButton1.Location = \cf1 New\cf0  Point(87, 167) \cf1 Then\cf0\par
+            MiniButton1.Enabled = \cf1 False\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  MiniButton1.Location = \cf1 New\cf0  Point(57, 142) \cf1 Then\cf0\par
+            MiniButton1.Location = \cf1 New\cf0  Point(87, 167)\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  MiniButton1.Location = \cf1 New\cf0  Point(116, 22) \cf1 Then\cf0\par
+            MiniButton1.Location = \cf1 New\cf0  Point(57, 142)\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  MiniButton1.Location = \cf1 New\cf0  Point(172, 52) \cf1 Then\cf0\par
+            MiniButton1.Location = \cf1 New\cf0  Point(116, 22)\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  MiniButton1.Location = \cf1 New\cf0  Point(202, 131) \cf1 Then\cf0\par
+            MiniButton1.Location = \cf1 New\cf0  Point(172, 52)\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  MiniButton1.Location = \cf1 New\cf0  Point(203, 234) \cf1 Then\cf0\par
+            MiniButton1.Location = \cf1 New\cf0  Point(202, 131)\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  MiniButton1.Location = \cf1 New\cf0  Point(136, 291) \cf1 Then\cf0\par
+            MiniButton1.Location = \cf1 New\cf0  Point(203, 234)\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\cf1 End\cf0  \cf1 Class\par
+\cf0\f1\fs22\par
+}
+ 

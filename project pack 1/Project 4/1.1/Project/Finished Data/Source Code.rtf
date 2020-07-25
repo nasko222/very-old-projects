@@ -1,0 +1,477 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Consolas;}{\f1\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue255;\red43\green145\blue175;\red163\green21\blue21;\red0\green128\blue0;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs19 Public\cf0  \cf1 Class\cf0  \cf2 Form1\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Form1_Load(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  \cf1 MyBase\cf0 .Load\par
+        MaximizeBox = \cf1 False\cf0\par
+        WinsNumberX.Text = 0\par
+        WinsNumberO.Text = 0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Reset()\par
+        TurnCell.BackgroundImage = \cf1 Nothing\cf0\par
+        ErrorProvider1.DataMember = \cf3 "N"\cf0  \cf4 'Reset\cf0\par
+        Box1.Enabled = \cf1 True\cf0\par
+        Box2.Enabled = \cf1 True\cf0\par
+        Box3.Enabled = \cf1 True\cf0\par
+        Box4.Enabled = \cf1 True\cf0\par
+        Box5.Enabled = \cf1 True\cf0\par
+        Box6.Enabled = \cf1 True\cf0\par
+        Box7.Enabled = \cf1 True\cf0\par
+        Box8.Enabled = \cf1 True\cf0\par
+        Box9.Enabled = \cf1 True\cf0\par
+        Box1.BackgroundImage = Square.BackgroundImage\par
+        Box2.BackgroundImage = Square.BackgroundImage\par
+        Box3.BackgroundImage = Square.BackgroundImage\par
+        Box4.BackgroundImage = Square.BackgroundImage\par
+        Box5.BackgroundImage = Square.BackgroundImage\par
+        Box6.BackgroundImage = Square.BackgroundImage\par
+        Box7.BackgroundImage = Square.BackgroundImage\par
+        Box8.BackgroundImage = Square.BackgroundImage\par
+        Box9.BackgroundImage = Square.BackgroundImage\par
+        Cell1_O.Checked = \cf1 False\cf0\par
+        Cell1_X.Checked = \cf1 False\cf0\par
+        Cell2_O.Checked = \cf1 False\cf0\par
+        Cell2_X.Checked = \cf1 False\cf0\par
+        Cell3_O.Checked = \cf1 False\cf0\par
+        Cell3_X.Checked = \cf1 False\cf0\par
+        Cell4_O.Checked = \cf1 False\cf0\par
+        Cell4_X.Checked = \cf1 False\cf0\par
+        Cell5_O.Checked = \cf1 False\cf0\par
+        Cell5_X.Checked = \cf1 False\cf0\par
+        Cell6_O.Checked = \cf1 False\cf0\par
+        Cell6_X.Checked = \cf1 False\cf0\par
+        Cell7_O.Checked = \cf1 False\cf0\par
+        Cell7_X.Checked = \cf1 False\cf0\par
+        Cell8_O.Checked = \cf1 False\cf0\par
+        Cell8_X.Checked = \cf1 False\cf0\par
+        Cell9_O.Checked = \cf1 False\cf0\par
+        Cell9_X.Checked = \cf1 False\cf0\par
+        Button2.Enabled = \cf1 True\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Box1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Box1.Click\par
+        \cf1 If\cf0  ErrorProvider1.DataMember = \cf3 "O"\cf0  \cf1 Then\cf0\par
+            Box1.BackgroundImage = TicO.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "X"\cf0\par
+            Box1.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicX.BackgroundImage\par
+            Cell1_O.Checked = \cf1 True\cf0\par
+        \cf1 ElseIf\cf0  ErrorProvider1.DataMember = \cf3 "X"\cf0  \cf1 Then\cf0\par
+            Box1.BackgroundImage = TicX.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "O"\cf0\par
+            Box1.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicO.BackgroundImage()\par
+            Cell1_X.Checked = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 Call\cf0  Draw()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Box2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Box2.Click\par
+        \cf1 If\cf0  ErrorProvider1.DataMember = \cf3 "O"\cf0  \cf1 Then\cf0\par
+            Box2.BackgroundImage = TicO.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "X"\cf0\par
+            Box2.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicX.BackgroundImage\par
+            Cell2_O.Checked = \cf1 True\cf0\par
+        \cf1 ElseIf\cf0  ErrorProvider1.DataMember = \cf3 "X"\cf0  \cf1 Then\cf0\par
+            Box2.BackgroundImage = TicX.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "O"\cf0\par
+            Box2.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicO.BackgroundImage\par
+            Cell2_X.Checked = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 Call\cf0  Draw()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Box3_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Box3.Click\par
+        \cf1 If\cf0  ErrorProvider1.DataMember = \cf3 "O"\cf0  \cf1 Then\cf0\par
+            Box3.BackgroundImage = TicO.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "X"\cf0\par
+            Box3.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicX.BackgroundImage\par
+            Cell3_O.Checked = \cf1 True\cf0\par
+        \cf1 ElseIf\cf0  ErrorProvider1.DataMember = \cf3 "X"\cf0  \cf1 Then\cf0\par
+            Box3.BackgroundImage = TicX.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "O"\cf0\par
+            Box3.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicO.BackgroundImage\par
+            Cell3_X.Checked = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 Call\cf0  Draw()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Box4_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Box4.Click\par
+        \cf1 If\cf0  ErrorProvider1.DataMember = \cf3 "O"\cf0  \cf1 Then\cf0\par
+            Box4.BackgroundImage = TicO.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "X"\cf0\par
+            Box4.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicX.BackgroundImage\par
+            Cell4_O.Checked = \cf1 True\cf0\par
+        \cf1 ElseIf\cf0  ErrorProvider1.DataMember = \cf3 "X"\cf0  \cf1 Then\cf0\par
+            Box4.BackgroundImage = TicX.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "O"\cf0\par
+            Box4.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicO.BackgroundImage\par
+            Cell4_X.Checked = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 Call\cf0  Draw()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Box5_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Box5.Click\par
+        \cf1 If\cf0  ErrorProvider1.DataMember = \cf3 "O"\cf0  \cf1 Then\cf0\par
+            Box5.BackgroundImage = TicO.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "X"\cf0\par
+            Box5.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicX.BackgroundImage\par
+            Cell5_O.Checked = \cf1 True\cf0\par
+        \cf1 ElseIf\cf0  ErrorProvider1.DataMember = \cf3 "X"\cf0  \cf1 Then\cf0\par
+            Box5.BackgroundImage = TicX.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "O"\cf0\par
+            Box5.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicO.BackgroundImage\par
+            Cell5_X.Checked = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 Call\cf0  Draw()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Box6_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Box6.Click\par
+        \cf1 If\cf0  ErrorProvider1.DataMember = \cf3 "O"\cf0  \cf1 Then\cf0\par
+            Box6.BackgroundImage = TicO.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "X"\cf0\par
+            Box6.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicX.BackgroundImage\par
+            Cell6_O.Checked = \cf1 True\cf0\par
+        \cf1 ElseIf\cf0  ErrorProvider1.DataMember = \cf3 "X"\cf0  \cf1 Then\cf0\par
+            Box6.BackgroundImage = TicX.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "O"\cf0\par
+            Box6.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicO.BackgroundImage\par
+            Cell6_X.Checked = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 Call\cf0  Draw()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Box7_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Box7.Click\par
+        \cf1 If\cf0  ErrorProvider1.DataMember = \cf3 "O"\cf0  \cf1 Then\cf0\par
+            Box7.BackgroundImage = TicO.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "X"\cf0\par
+            Box7.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicX.BackgroundImage\par
+            Cell7_O.Checked = \cf1 True\cf0\par
+        \cf1 ElseIf\cf0  ErrorProvider1.DataMember = \cf3 "X"\cf0  \cf1 Then\cf0\par
+            Box7.BackgroundImage = TicX.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "O"\cf0\par
+            Box7.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicO.BackgroundImage\par
+            Cell7_X.Checked = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 Call\cf0  Draw()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Box8_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Box8.Click\par
+        \cf1 If\cf0  ErrorProvider1.DataMember = \cf3 "O"\cf0  \cf1 Then\cf0\par
+            Box8.BackgroundImage = TicO.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "X"\cf0\par
+            Box8.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicX.BackgroundImage\par
+            Cell8_O.Checked = \cf1 True\cf0\par
+        \cf1 ElseIf\cf0  ErrorProvider1.DataMember = \cf3 "X"\cf0  \cf1 Then\cf0\par
+            Box8.BackgroundImage = TicX.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "O"\cf0\par
+            Box8.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicO.BackgroundImage\par
+            Cell8_X.Checked = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 Call\cf0  Draw()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Box9_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Box9.Click\par
+        \cf1 If\cf0  ErrorProvider1.DataMember = \cf3 "O"\cf0  \cf1 Then\cf0\par
+            Box9.BackgroundImage = TicO.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "X"\cf0\par
+            Box9.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicX.BackgroundImage\par
+            Cell9_O.Checked = \cf1 True\cf0\par
+        \cf1 ElseIf\cf0  ErrorProvider1.DataMember = \cf3 "X"\cf0  \cf1 Then\cf0\par
+            Box9.BackgroundImage = TicX.BackgroundImage\par
+            ErrorProvider1.DataMember = \cf3 "O"\cf0\par
+            Box9.Enabled = \cf1 False\cf0\par
+            TurnCell.BackgroundImage = TicO.BackgroundImage\par
+            Cell9_X.Checked = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 Call\cf0  Draw()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TurnCell_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  TurnCell.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button1.Click\par
+        TurnCell.BackgroundImage = TicO.BackgroundImage\par
+        ErrorProvider1.DataMember = \cf3 "O"\cf0  \cf4 'Turn of O\cf0\par
+        Box1.Enabled = \cf1 True\cf0\par
+        Box2.Enabled = \cf1 True\cf0\par
+        Box3.Enabled = \cf1 True\cf0\par
+        Box4.Enabled = \cf1 True\cf0\par
+        Box5.Enabled = \cf1 True\cf0\par
+        Box6.Enabled = \cf1 True\cf0\par
+        Box7.Enabled = \cf1 True\cf0\par
+        Box8.Enabled = \cf1 True\cf0\par
+        Box9.Enabled = \cf1 True\cf0\par
+        Box1.BackgroundImage = Square.BackgroundImage\par
+        Box2.BackgroundImage = Square.BackgroundImage\par
+        Box3.BackgroundImage = Square.BackgroundImage\par
+        Box4.BackgroundImage = Square.BackgroundImage\par
+        Box5.BackgroundImage = Square.BackgroundImage\par
+        Box6.BackgroundImage = Square.BackgroundImage\par
+        Box7.BackgroundImage = Square.BackgroundImage\par
+        Box8.BackgroundImage = Square.BackgroundImage\par
+        Box9.BackgroundImage = Square.BackgroundImage\par
+        Cell1_O.Checked = \cf1 False\cf0\par
+        Cell1_X.Checked = \cf1 False\cf0\par
+        Cell2_O.Checked = \cf1 False\cf0\par
+        Cell2_X.Checked = \cf1 False\cf0\par
+        Cell3_O.Checked = \cf1 False\cf0\par
+        Cell3_X.Checked = \cf1 False\cf0\par
+        Cell4_O.Checked = \cf1 False\cf0\par
+        Cell4_X.Checked = \cf1 False\cf0\par
+        Cell5_O.Checked = \cf1 False\cf0\par
+        Cell5_X.Checked = \cf1 False\cf0\par
+        Cell6_O.Checked = \cf1 False\cf0\par
+        Cell6_X.Checked = \cf1 False\cf0\par
+        Cell7_O.Checked = \cf1 False\cf0\par
+        Cell7_X.Checked = \cf1 False\cf0\par
+        Cell8_O.Checked = \cf1 False\cf0\par
+        Cell8_X.Checked = \cf1 False\cf0\par
+        Cell9_O.Checked = \cf1 False\cf0\par
+        Cell9_X.Checked = \cf1 False\cf0\par
+        Button2.Enabled = \cf1 False\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  WinningX()\par
+        \cf4 '1,4,7 #1\cf0\par
+        \cf4 '2,5,8 #2\cf0\par
+        \cf4 '3,6,9 #3\cf0\par
+        \cf4 '1,2,3 #4\cf0\par
+        \cf4 '4,5,6 #5\cf0\par
+        \cf4 '7,8,9 #6\cf0\par
+        \cf4 '1,5,9 #7\cf0\par
+        \cf4 '3,5,7 #8\cf0\par
+        \cf4 'Winning conditions (CellX)\cf0\par
+        \cf1 If\cf0  Cell1_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell4_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell7_X.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#1\cf0\par
+            MessageBox.Show(\cf3 "X Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberX.Text = WinsNumberX.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Cell2_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell5_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell8_X.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#2\cf0\par
+            MessageBox.Show(\cf3 "X Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberX.Text = WinsNumberX.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Cell3_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell6_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell9_X.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#3\cf0\par
+            MessageBox.Show(\cf3 "X Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberX.Text = WinsNumberX.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Cell1_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell2_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell3_X.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#4\cf0\par
+            MessageBox.Show(\cf3 "X Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberX.Text = WinsNumberX.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Cell4_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell5_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell6_X.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#5\cf0\par
+            MessageBox.Show(\cf3 "X Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberX.Text = WinsNumberX.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Cell7_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell8_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell9_X.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#6\cf0\par
+            MessageBox.Show(\cf3 "X Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberX.Text = WinsNumberX.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Cell1_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell5_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell9_X.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#7\cf0\par
+            MessageBox.Show(\cf3 "X Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberX.Text = WinsNumberX.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Cell3_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell5_X.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell7_X.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#8\cf0\par
+            MessageBox.Show(\cf3 "X Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberX.Text = WinsNumberX.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  WinningO()\par
+        \cf4 '1,4,7 #1\cf0\par
+        \cf4 '2,5,8 #2\cf0\par
+        \cf4 '3,6,9 #3\cf0\par
+        \cf4 '1,2,3 #4\cf0\par
+        \cf4 '4,5,6 #5\cf0\par
+        \cf4 '7,8,9 #6\cf0\par
+        \cf4 '1,5,9 #7\cf0\par
+        \cf4 '3,5,7 #8\cf0\par
+        \cf4 'Winning conditions (CellO)\cf0\par
+        \cf1 If\cf0  Cell1_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell4_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell7_O.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#1\cf0\par
+            MessageBox.Show(\cf3 "O Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberO.Text = WinsNumberO.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Cell2_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell5_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell8_O.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#2\cf0\par
+            MessageBox.Show(\cf3 "O Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberO.Text = WinsNumberO.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Cell3_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell6_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell9_O.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#3\cf0\par
+            MessageBox.Show(\cf3 "O Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberO.Text = WinsNumberO.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Cell1_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell2_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell3_O.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#4\cf0\par
+            MessageBox.Show(\cf3 "O Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberO.Text = WinsNumberO.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Cell4_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell5_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell6_O.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#5\cf0\par
+            MessageBox.Show(\cf3 "O Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberO.Text = WinsNumberO.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Cell7_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell8_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell9_O.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#6\cf0\par
+            MessageBox.Show(\cf3 "O Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberO.Text = WinsNumberO.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Cell1_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell5_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell9_O.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#7\cf0\par
+            MessageBox.Show(\cf3 "O Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberO.Text = WinsNumberO.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Cell3_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell5_O.Checked = \cf1 True\cf0  \cf1 And\cf0  Cell7_O.Checked = \cf1 True\cf0  \cf1 Then\cf0  \cf4 '#8\cf0\par
+            MessageBox.Show(\cf3 "O Win!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+            WinsNumberO.Text = WinsNumberO.Text + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Draw()\par
+        \cf1 If\cf0  Box1.Enabled = \cf1 False\cf0  \cf1 And\cf0  Box2.Enabled = \cf1 False\cf0  \cf1 And\cf0  Box3.Enabled = \cf1 False\cf0  \cf1 And\cf0  Box4.Enabled = \cf1 False\cf0  \cf1 And\cf0  Box5.Enabled = \cf1 False\cf0  \cf1 And\cf0  Box6.Enabled = \cf1 False\cf0  \cf1 And\cf0  Box7.Enabled = \cf1 False\cf0  \cf1 And\cf0  Box8.Enabled = \cf1 False\cf0  \cf1 And\cf0  Box9.Enabled = \cf1 False\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "Draw!"\cf0 )\par
+            \cf1 Call\cf0  Reset()\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell1_O_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell1_O.CheckedChanged\par
+        \cf1 Call\cf0  WinningO()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell2_O_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell2_O.CheckedChanged\par
+        \cf1 Call\cf0  WinningO()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell3_O_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell3_O.CheckedChanged\par
+        \cf1 Call\cf0  WinningO()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell4_O_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell4_O.CheckedChanged\par
+        \cf1 Call\cf0  WinningO()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell5_O_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell5_O.CheckedChanged\par
+        \cf1 Call\cf0  WinningO()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell6_O_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell6_O.CheckedChanged\par
+        \cf1 Call\cf0  WinningO()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell7_O_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell7_O.CheckedChanged\par
+        \cf1 Call\cf0  WinningO()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell8_O_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell8_O.CheckedChanged\par
+        \cf1 Call\cf0  WinningO()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell9_O_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell9_O.CheckedChanged\par
+        \cf1 Call\cf0  WinningO()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell1_X_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell1_X.CheckedChanged\par
+        \cf1 Call\cf0  WinningX()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell2_X_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell2_X.CheckedChanged\par
+        \cf1 Call\cf0  WinningX()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell3_X_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell3_X.CheckedChanged\par
+        \cf1 Call\cf0  WinningX()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell4_X_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell4_X.CheckedChanged\par
+        \cf1 Call\cf0  WinningX()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell5_X_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell5_X.CheckedChanged\par
+        \cf1 Call\cf0  WinningX()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell6_X_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell6_X.CheckedChanged\par
+        \cf1 Call\cf0  WinningX()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell7_X_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell7_X.CheckedChanged\par
+        \cf1 Call\cf0  WinningX()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell8_X_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell8_X.CheckedChanged\par
+        \cf1 Call\cf0  WinningX()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Cell9_X_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Cell9_X.CheckedChanged\par
+        \cf1 Call\cf0  WinningX()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Label3_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Label3.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  PictureBox1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  PictureBox1.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  PictureBox2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  PictureBox2.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  WinsNumberO_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  WinsNumberO.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  WinsNumberX_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  WinsNumberX.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs)\par
+        WinsNumberX.Text = 0\par
+        WinsNumberO.Text = 0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button2_Click_1(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button2.Click\par
+        \cf1 If\cf0  WinsNumberX.Text > WinsNumberO.Text \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "X Win the game"\cf0 )\par
+            \cf1 End\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  WinsNumberX.Text < WinsNumberO.Text \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "O Win the game"\cf0 )\par
+            \cf1 End\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  WinsNumberX.Text = WinsNumberO.Text \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "It's a Draw"\cf0 )\par
+            \cf1 End\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\cf1 End\cf0  \cf1 Class\par
+\cf0\f1\fs22\par
+}
+ 

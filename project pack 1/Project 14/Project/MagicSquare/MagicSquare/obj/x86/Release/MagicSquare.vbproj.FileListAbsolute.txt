@@ -1,0 +1,9 @@
+I:\domat\MagicSquare\MagicSquare\bin\Release\MagicSquare.exe
+I:\domat\MagicSquare\MagicSquare\bin\Release\MagicSquare.pdb
+I:\domat\MagicSquare\MagicSquare\bin\Release\MagicSquare.xml
+I:\domat\MagicSquare\MagicSquare\obj\x86\Release\MagicSquare.Form1.resources
+I:\domat\MagicSquare\MagicSquare\obj\x86\Release\MagicSquare.Resources.resources
+I:\domat\MagicSquare\MagicSquare\obj\x86\Release\MagicSquare.vbproj.GenerateResource.Cache
+I:\domat\MagicSquare\MagicSquare\obj\x86\Release\MagicSquare.exe
+I:\domat\MagicSquare\MagicSquare\obj\x86\Release\MagicSquare.xml
+I:\domat\MagicSquare\MagicSquare\obj\x86\Release\MagicSquare.pdb

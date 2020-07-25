@@ -1,0 +1,19 @@
+C:\Users\Student\AppData\Local\Temporary Projects\HelloWorld2\bin\Debug\HelloWorld2.exe
+C:\Users\Student\AppData\Local\Temporary Projects\HelloWorld2\bin\Debug\HelloWorld2.pdb
+C:\Users\Student\AppData\Local\Temporary Projects\HelloWorld2\bin\Debug\HelloWorld2.xml
+C:\Users\Student\AppData\Local\Temporary Projects\HelloWorld2\obj\x86\Debug\HelloWorld2.Resources.resources
+C:\Users\Student\AppData\Local\Temporary Projects\HelloWorld2\obj\x86\Debug\HelloWorld2.vbproj.GenerateResource.Cache
+C:\Users\Student\AppData\Local\Temporary Projects\HelloWorld2\obj\x86\Debug\HelloWorld2.exe
+C:\Users\Student\AppData\Local\Temporary Projects\HelloWorld2\obj\x86\Debug\HelloWorld2.xml
+C:\Users\Student\AppData\Local\Temporary Projects\HelloWorld2\obj\x86\Debug\HelloWorld2.pdb
+C:\Users\Student\Desktop\9z\hw2\HelloWorld2\HelloWorld2\obj\x86\Debug\HelloWorld2.exe
+C:\Users\Student\Desktop\9z\hw2\HelloWorld2\HelloWorld2\obj\x86\Debug\HelloWorld2.xml
+C:\Users\Student\Desktop\9z\hw2\HelloWorld2\HelloWorld2\obj\x86\Debug\HelloWorld2.pdb
+F:\hw2\HelloWorld2\HelloWorld2\obj\x86\Debug\HelloWorld2.exe
+F:\hw2\HelloWorld2\HelloWorld2\obj\x86\Debug\HelloWorld2.xml
+F:\hw2\HelloWorld2\HelloWorld2\obj\x86\Debug\HelloWorld2.pdb
+F:\hw2\HelloWorld2\HelloWorld2\bin\Debug\HelloWorld2.exe
+F:\hw2\HelloWorld2\HelloWorld2\bin\Debug\HelloWorld2.pdb
+F:\hw2\HelloWorld2\HelloWorld2\bin\Debug\HelloWorld2.xml
+F:\hw2\HelloWorld2\HelloWorld2\obj\x86\Debug\HelloWorld2.Resources.resources
+F:\hw2\HelloWorld2\HelloWorld2\obj\x86\Debug\HelloWorld2.vbproj.GenerateResource.Cache

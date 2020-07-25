@@ -1,0 +1,159 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Consolas;}{\f1\fnil\fcharset204 Consolas;}{\f2\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue255;\red43\green145\blue175;\red163\green21\blue21;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs19 Public\cf0  \cf1 Class\cf0  \cf2 Form1\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Form1_Load(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  \cf1 MyBase\cf0 .Load\par
+        Label2.Hide()\par
+        Label3.Hide()\par
+        TextBox1.Hide()\par
+        TextBox2.Hide()\par
+        Button2.Hide()\par
+        MaximizeBox = \cf1 False\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Label1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Label1.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Display1_TextChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Display1.TextChanged\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  PizzaCalculation()\par
+        \cf1 Dim\cf0  Pizza \cf1 As\cf0  \cf1 String\cf0  = 4\par
+        \cf1 If\cf0  RadioButton1.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            Pizza = Pizza\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  RadioButton2.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            Pizza = Pizza * 1.5\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  RadioButton3.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            Pizza = Pizza * 2\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  CheckBox1.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            Pizza = Pizza + 1.2\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  CheckBox2.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            Pizza = Pizza + 0.4\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  CheckBox3.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            Pizza = Pizza + 0.8\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  CheckBox4.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            Pizza = Pizza + 0.6\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  CheckBox5.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            Pizza = Pizza + 0.2\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  CheckBox6.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            Pizza = Pizza + 0.5\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  CheckBox7.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            Pizza = Pizza + 1\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  CheckBox8.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            Pizza = Pizza + 0.7\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  CheckBox1.Checked = \cf1 True\cf0  \cf1 And\cf0  CheckBox2.Checked = \cf1 True\cf0  \cf1 And\cf0  CheckBox3.Checked = \cf1 True\cf0  \cf1 And\cf0  CheckBox4.Checked = \cf1 True\cf0  \cf1 And\cf0  CheckBox5.Checked = \cf1 True\cf0  \cf1 And\cf0  CheckBox6.Checked = \cf1 True\cf0  \cf1 And\cf0  CheckBox7.Checked = \cf1 True\cf0  \cf1 And\cf0  CheckBox8.Checked = \cf1 True\cf0  \cf1 Then\cf0\par
+            Pizza = Pizza - 0.9\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        Display1.Text = FormatCurrency(Pizza)\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  RadioButton1_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  RadioButton1.CheckedChanged\par
+        \cf1 Call\cf0  PizzaCalculation()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  RadioButton2_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  RadioButton2.CheckedChanged\par
+        \cf1 Call\cf0  PizzaCalculation()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  RadioButton3_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  RadioButton3.CheckedChanged\par
+        \cf1 Call\cf0  PizzaCalculation()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CheckBox1_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CheckBox1.CheckedChanged\par
+        \cf1 Call\cf0  PizzaCalculation()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CheckBox2_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CheckBox2.CheckedChanged\par
+        \cf1 Call\cf0  PizzaCalculation()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CheckBox3_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CheckBox3.CheckedChanged\par
+        \cf1 Call\cf0  PizzaCalculation()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CheckBox4_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CheckBox4.CheckedChanged\par
+        \cf1 Call\cf0  PizzaCalculation()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CheckBox5_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CheckBox5.CheckedChanged\par
+        \cf1 Call\cf0  PizzaCalculation()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CheckBox6_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CheckBox6.CheckedChanged\par
+        \cf1 Call\cf0  PizzaCalculation()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CheckBox7_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CheckBox7.CheckedChanged\par
+        \cf1 Call\cf0  PizzaCalculation()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CheckBox8_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CheckBox8.CheckedChanged\par
+        \cf1 Call\cf0  PizzaCalculation()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button1.Click\par
+        \cf1 If\cf0  CheckBox1.Checked = \cf1 False\cf0  \cf1 And\cf0  CheckBox2.Checked = \cf1 False\cf0  \cf1 And\cf0  CheckBox3.Checked = \cf1 False\cf0  \cf1 And\cf0  CheckBox4.Checked = \cf1 False\cf0  \cf1 And\cf0  CheckBox5.Checked = \cf1 False\cf0  \cf1 And\cf0  CheckBox6.Checked = \cf1 False\cf0  \cf1 And\cf0  CheckBox7.Checked = \cf1 False\cf0  \cf1 And\cf0  CheckBox8.Checked = \cf1 False\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "\lang1026\f1\'cc\'ee\'eb\'ff\lang1033\f0  \lang1026\f1\'e8\'e7\'e1\'e5\'f0\'e5\'f2\'e5\lang1033\f0  \lang1026\f1\'ed\'e5\'f9\'ee\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  \lang1026\f1\'ef\'e8\'f6\'e0\'f2\'e0\lang1033\f0 !"\cf0 )\par
+        \cf1 Else\cf0\par
+            CheckBox1.Enabled = \cf1 False\cf0\par
+            CheckBox2.Enabled = \cf1 False\cf0\par
+            CheckBox3.Enabled = \cf1 False\cf0\par
+            CheckBox4.Enabled = \cf1 False\cf0\par
+            CheckBox5.Enabled = \cf1 False\cf0\par
+            CheckBox6.Enabled = \cf1 False\cf0\par
+            CheckBox7.Enabled = \cf1 False\cf0\par
+            CheckBox8.Enabled = \cf1 False\cf0\par
+            RadioButton1.Enabled = \cf1 False\cf0\par
+            RadioButton2.Enabled = \cf1 False\cf0\par
+            RadioButton3.Enabled = \cf1 False\cf0\par
+            Label2.Show()\par
+            Label3.Show()\par
+            TextBox1.Show()\par
+            TextBox2.Show()\par
+            Button1.Hide()\par
+            Button2.Show()\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button2.Click\par
+        \cf1 If\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 Or\cf0  TextBox2.Text = \cf1 Nothing\cf0  \cf1 Then\cf0\par
+            MessageBox.Show(\cf3 "\lang1026\f1\'c8\'ec\'e0\lang1033\f0  \lang1026\f1\'ef\'f0\'e0\'e7\'ed\'e8\lang1033\f0  \lang1026\f1\'ef\'ee\'eb\'e5\'f2\'e0\lang1033\f0 !"\cf0 )\par
+        \cf1 Else\cf0\par
+            CheckBox1.Hide()\par
+            CheckBox2.Hide()\par
+            CheckBox3.Hide()\par
+            CheckBox4.Hide()\par
+            CheckBox5.Hide()\par
+            CheckBox6.Hide()\par
+            CheckBox7.Hide()\par
+            CheckBox8.Hide()\par
+            RadioButton1.Hide()\par
+            RadioButton2.Hide()\par
+            RadioButton3.Hide()\par
+            Label1.Hide()\par
+            Label2.Hide()\par
+            Label3.Hide()\par
+            Button2.Hide()\par
+            TextBox1.Hide()\par
+            TextBox2.Hide()\par
+            MsgBox(\cf3 "\lang1026\f1\'cf\'ee\'f0\'fa\'f7\'e0\'ed\'e0\lang1033\f0  \lang1026\f1\'ef\'e8\'f6\'e0\lang1033\f0  \lang1026\f1\'e2\lang1033\f0  \lang1026\f1\'e3\'f0\'e0\'e4\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ed\'e0\lang1033\f0  \lang1026\f1\'f3\'eb\'e8\'f6\'e0\lang1033\f0  "\cf0  + TextBox2.Text, vbInformation, \cf3 "PIZZA"\cf0 )\par
+            \cf1 End\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\cf1 End\cf0  \cf1 Class\par
+\cf0\f2\fs22\par
+}
+ 

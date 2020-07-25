@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TicTacToe
+</name>
+</assembly>
+<members>
+<member name="P:Tic_Tac_Toe.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Tic_Tac_Toe.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Tic_Tac_Toe.My.Resources.Resources._61cddf9cfe50f4baaa8f472c253d1cb4_basic_square_outline_by_vexels">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tic_Tac_Toe.My.Resources.Resources.post_0_12884151170642">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tic_Tac_Toe.My.Resources.Resources.post_97990_1260678617">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Tic_Tac_Toe.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

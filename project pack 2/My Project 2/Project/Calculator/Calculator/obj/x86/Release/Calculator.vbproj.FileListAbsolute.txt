@@ -1,0 +1,18 @@
+F:\proekti\drugi\My Project 5\Calculator\Calculator\bin\Release\Calculator.exe
+F:\proekti\drugi\My Project 5\Calculator\Calculator\bin\Release\Calculator.pdb
+F:\proekti\drugi\My Project 5\Calculator\Calculator\bin\Release\Calculator.xml
+F:\proekti\drugi\My Project 5\Calculator\Calculator\obj\x86\Release\Calculator.Calculator.resources
+F:\proekti\drugi\My Project 5\Calculator\Calculator\obj\x86\Release\Calculator.Resources.resources
+F:\proekti\drugi\My Project 5\Calculator\Calculator\obj\x86\Release\Calculator.vbproj.GenerateResource.Cache
+F:\proekti\drugi\My Project 5\Calculator\Calculator\obj\x86\Release\Calculator.exe
+F:\proekti\drugi\My Project 5\Calculator\Calculator\obj\x86\Release\Calculator.xml
+F:\proekti\drugi\My Project 5\Calculator\Calculator\obj\x86\Release\Calculator.pdb
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\obj\x86\Release\Calculator.exe
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\obj\x86\Release\Calculator.xml
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\obj\x86\Release\Calculator.pdb
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\bin\Release\Calculator.exe
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\bin\Release\Calculator.pdb
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\bin\Release\Calculator.xml
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\obj\x86\Release\Calculator.Calculator.resources
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\obj\x86\Release\Calculator.Resources.resources
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\obj\x86\Release\Calculator.vbproj.GenerateResource.Cache

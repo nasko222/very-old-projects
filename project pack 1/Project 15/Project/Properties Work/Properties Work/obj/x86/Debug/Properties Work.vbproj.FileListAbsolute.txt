@@ -1,0 +1,27 @@
+C:\Users\Student\AppData\Local\Temporary Projects\Properties Work\bin\Debug\Properties Work.exe
+C:\Users\Student\AppData\Local\Temporary Projects\Properties Work\bin\Debug\Properties Work.pdb
+C:\Users\Student\AppData\Local\Temporary Projects\Properties Work\bin\Debug\Properties Work.xml
+C:\Users\Student\AppData\Local\Temporary Projects\Properties Work\obj\x86\Debug\Properties_Work.Form1.resources
+C:\Users\Student\AppData\Local\Temporary Projects\Properties Work\obj\x86\Debug\Properties_Work.Resources.resources
+C:\Users\Student\AppData\Local\Temporary Projects\Properties Work\obj\x86\Debug\Properties Work.vbproj.GenerateResource.Cache
+C:\Users\Student\AppData\Local\Temporary Projects\Properties Work\obj\x86\Debug\Properties Work.exe
+C:\Users\Student\AppData\Local\Temporary Projects\Properties Work\obj\x86\Debug\Properties Work.xml
+C:\Users\Student\AppData\Local\Temporary Projects\Properties Work\obj\x86\Debug\Properties Work.pdb
+C:\Users\Student\Desktop\9z\morkov\Properties Work\Properties Work\obj\x86\Debug\Properties Work.exe
+C:\Users\Student\Desktop\9z\morkov\Properties Work\Properties Work\obj\x86\Debug\Properties Work.xml
+C:\Users\Student\Desktop\9z\morkov\Properties Work\Properties Work\obj\x86\Debug\Properties Work.pdb
+C:\Users\Student\Desktop\9z\morkov\Properties Work\Properties Work\bin\Debug\Properties Work.exe
+C:\Users\Student\Desktop\9z\morkov\Properties Work\Properties Work\bin\Debug\Properties Work.pdb
+C:\Users\Student\Desktop\9z\morkov\Properties Work\Properties Work\bin\Debug\Properties Work.xml
+C:\Users\Student\Desktop\9z\morkov\Properties Work\Properties Work\obj\x86\Debug\Properties_Work.Form1.resources
+C:\Users\Student\Desktop\9z\morkov\Properties Work\Properties Work\obj\x86\Debug\Properties_Work.Resources.resources
+C:\Users\Student\Desktop\9z\morkov\Properties Work\Properties Work\obj\x86\Debug\Properties Work.vbproj.GenerateResource.Cache
+I:\morkov\Properties Work\Properties Work\obj\x86\Debug\Properties Work.exe
+I:\morkov\Properties Work\Properties Work\obj\x86\Debug\Properties Work.xml
+I:\morkov\Properties Work\Properties Work\obj\x86\Debug\Properties Work.pdb
+I:\morkov\Properties Work\Properties Work\bin\Debug\Properties Work.exe
+I:\morkov\Properties Work\Properties Work\bin\Debug\Properties Work.pdb
+I:\morkov\Properties Work\Properties Work\bin\Debug\Properties Work.xml
+I:\morkov\Properties Work\Properties Work\obj\x86\Debug\Properties_Work.Form1.resources
+I:\morkov\Properties Work\Properties Work\obj\x86\Debug\Properties_Work.Resources.resources
+I:\morkov\Properties Work\Properties Work\obj\x86\Debug\Properties Work.vbproj.GenerateResource.Cache

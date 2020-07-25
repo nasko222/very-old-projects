@@ -1,0 +1,132 @@
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil Consolas;}{\f1\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;\red43\green145\blue175;\red0\green128\blue0;\red163\green21\blue21;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\sl240\slmult1\cf1\lang9\f0\fs19 Public\cf0  \cf1 Class\cf0  \cf2 Form1\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button1.Click\par
+        \cf1 If\cf0  Button1.Location = \cf1 New\cf0  Point(12, 174) \cf1 Then\cf0  \cf3 'Final\cf0\par
+            Button1.Enabled = \cf1 False\cf0\par
+            Button2.Visible = \cf1 True\cf0\par
+            Button2.Location = \cf1 New\cf0  Point(12, 12)\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Button1.Location = \cf1 New\cf0  Point(12, 120) \cf1 Then\cf0  \cf3 '#3\cf0\par
+            Button1.Location = \cf1 New\cf0  Point(12, 174)\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Button1.Location = \cf1 New\cf0  Point(12, 66) \cf1 Then\cf0  \cf3 '#2\cf0\par
+            Button1.Location = \cf1 New\cf0  Point(12, 120)\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Button1.Location = \cf1 New\cf0  Point(12, 12) \cf1 Then\cf0  \cf3 '#1\cf0\par
+            Button1.Location = \cf1 New\cf0  Point(12, 66)\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        Timer2.Stop()\par
+        Timer2.Start()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Form1_Load(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  \cf1 MyBase\cf0 .Load\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button2.Click\par
+        \cf1 If\cf0  Button2.Location = \cf1 New\cf0  Point(12, 120) \cf1 And\cf0  \cf1 Not\cf0  Button1.Location = \cf1 New\cf0  Point(12, 174) \cf1 Then\cf0  \cf3 '#3\cf0\par
+            Button2.Enabled = \cf1 False\cf0\par
+            Button2.Location = \cf1 New\cf0  Point(12, 174)\par
+            Button3.Location = \cf1 New\cf0  Point(12, 12)\par
+            Button3.Visible = \cf1 True\cf0\par
+        \cf1 ElseIf\cf0  Button2.Location = \cf1 New\cf0  Point(12, 120) \cf1 Then\cf0\par
+            Button2.Enabled = \cf1 False\cf0\par
+            Button3.Location = \cf1 New\cf0  Point(12, 12)\par
+            Button3.Visible = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Button2.Location = \cf1 New\cf0  Point(12, 66) \cf1 Then\cf0  \cf3 '#2\cf0\par
+            Button2.Location = \cf1 New\cf0  Point(12, 120)\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Button2.Location = \cf1 New\cf0  Point(12, 12) \cf1 Then\cf0  \cf3 '#1\cf0\par
+            Button2.Location = \cf1 New\cf0  Point(12, 66)\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        Timer2.Stop()\par
+        Timer2.Start()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button3_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button3.Click\par
+        \cf1 If\cf0  Button3.Location = \cf1 New\cf0  Point(12, 66) \cf1 And\cf0  Button2.Location = \cf1 New\cf0  Point(12, 120) \cf1 Then\cf0  \cf3 'Final\cf0\par
+            Button3.Enabled = \cf1 False\cf0\par
+            Button4.Location = \cf1 New\cf0  Point(12, 12)\par
+            Button4.Visible = \cf1 True\cf0\par
+        \cf1 ElseIf\cf0  \cf1 Not\cf0  Button2.Location = \cf1 New\cf0  Point(12, 120) \cf1 Then\cf0\par
+            Button3.Enabled = \cf1 False\cf0\par
+            Button3.Location = \cf1 New\cf0  Point(12, 120) \cf3 '#2 Boolean\cf0\par
+            Button4.Location = \cf1 New\cf0  Point(12, 12)\par
+            Button4.Visible = \cf1 True\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  Button3.Location = \cf1 New\cf0  Point(12, 12) \cf1 Then\cf0  \cf3 '#1\cf0\par
+            Button3.Location = \cf1 New\cf0  Point(12, 66)\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        Timer2.Stop()\par
+        Timer2.Start()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button4_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button4.Click\par
+        Button4.Enabled = \cf1 False\cf0\par
+        Timer1.Start()\par
+        Timer2.Stop()\par
+        Timer2.Start()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Timer1_Tick(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Timer1.Tick\par
+        Button1.Enabled = \cf1 True\cf0\par
+        Button2.Enabled = \cf1 True\cf0\par
+        Button3.Enabled = \cf1 True\cf0\par
+        Button4.Enabled = \cf1 True\cf0\par
+        Button1.Location = \cf1 New\cf0  Point(12, 12)\par
+        Button2.Location = Panel1.Location\par
+        Button3.Location = Panel1.Location\par
+        Button4.Location = Panel1.Location\par
+        Timer1.Stop()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Panel1_Paint(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.Windows.Forms.PaintEventArgs) \cf1 Handles\cf0  Panel1.Paint\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Timer2_Tick(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Timer2.Tick\par
+        Timer2.Stop()\par
+        MessageBox.Show(\cf4 "Game Over"\cf0 )\par
+        Button1.Enabled = \cf1 True\cf0\par
+        Button2.Enabled = \cf1 True\cf0\par
+        Button3.Enabled = \cf1 True\cf0\par
+        Button4.Enabled = \cf1 True\cf0\par
+        Button1.Location = \cf1 New\cf0  Point(12, 12)\par
+        Button2.Location = Panel1.Location\par
+        Button3.Location = Panel1.Location\par
+        Button4.Location = Panel1.Location\par
+        Button1.Enabled = \cf1 False\cf0\par
+        Button5.Enabled = \cf1 True\cf0\par
+        Button5.Text = \cf4 "Start"\cf0\par
+        RadioButton1.Enabled = \cf1 True\cf0\par
+        RadioButton2.Enabled = \cf1 True\cf0\par
+        RadioButton3.Enabled = \cf1 True\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  RadioButton1_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  RadioButton1.CheckedChanged\par
+        Timer2.Interval = 2000\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  RadioButton2_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  RadioButton2.CheckedChanged\par
+        Timer2.Interval = 1000\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  RadioButton3_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  RadioButton3.CheckedChanged\par
+        Timer2.Interval = 500\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button5_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button5.Click\par
+        Timer2.Start()\par
+        Button1.Enabled = \cf1 True\cf0\par
+        Button5.Enabled = \cf1 False\cf0\par
+        Button5.Text = \cf4 "Started..."\cf0\par
+        RadioButton1.Enabled = \cf1 False\cf0\par
+        RadioButton2.Enabled = \cf1 False\cf0\par
+        RadioButton3.Enabled = \cf1 False\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\cf1 End\cf0  \cf1 Class\par
+\pard\sl276\slmult1\cf0\f1\fs22\par
+}
+ 

@@ -1,0 +1,10 @@
+F:\proekti\Project 2\TreasureMap Project\TreasureMap Project\bin\Debug\TreasureMap Project.exe
+F:\proekti\Project 2\TreasureMap Project\TreasureMap Project\bin\Debug\TreasureMap Project.pdb
+F:\proekti\Project 2\TreasureMap Project\TreasureMap Project\bin\Debug\TreasureMap Project.xml
+F:\proekti\Project 2\TreasureMap Project\TreasureMap Project\obj\x86\Debug\TreasureMap_Project.Form1.resources
+F:\proekti\Project 2\TreasureMap Project\TreasureMap Project\obj\x86\Debug\TreasureMap_Project.Resources.resources
+F:\proekti\Project 2\TreasureMap Project\TreasureMap Project\obj\x86\Debug\TreasureMap Project.vbproj.GenerateResource.Cache
+F:\proekti\Project 2\TreasureMap Project\TreasureMap Project\obj\x86\Debug\TreasureMap Project.exe
+F:\proekti\Project 2\TreasureMap Project\TreasureMap Project\obj\x86\Debug\TreasureMap Project.xml
+F:\proekti\Project 2\TreasureMap Project\TreasureMap Project\obj\x86\Debug\TreasureMap Project.pdb
+F:\proekti\Project 2\TreasureMap Project\TreasureMap Project\obj\x86\Debug\TreasureMap_Project.Form2.resources

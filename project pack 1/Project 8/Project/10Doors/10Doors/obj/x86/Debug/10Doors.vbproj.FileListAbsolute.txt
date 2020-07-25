@@ -1,0 +1,30 @@
+C:\Users\TOTO\AppData\Local\Temporary Projects\10Doors\bin\Debug\10Doors.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\10Doors\bin\Debug\10Doors.pdb
+C:\Users\TOTO\AppData\Local\Temporary Projects\10Doors\bin\Debug\10Doors.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\10Doors\obj\x86\Debug\_10Doors.Form1.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\10Doors\obj\x86\Debug\_10Doors.Resources.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\10Doors\obj\x86\Debug\10Doors.vbproj.GenerateResource.Cache
+C:\Users\TOTO\AppData\Local\Temporary Projects\10Doors\obj\x86\Debug\10Doors.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\10Doors\obj\x86\Debug\10Doors.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\10Doors\obj\x86\Debug\10Doors.pdb
+F:\proekti\za uchlishte\Project 8\10Doors\10Doors\obj\x86\Debug\10Doors.exe
+F:\proekti\za uchlishte\Project 8\10Doors\10Doors\obj\x86\Debug\10Doors.xml
+F:\proekti\za uchlishte\Project 8\10Doors\10Doors\obj\x86\Debug\10Doors.pdb
+F:\Project 8\10Doors\10Doors\obj\x86\Debug\10Doors.exe
+F:\Project 8\10Doors\10Doors\obj\x86\Debug\10Doors.xml
+F:\Project 8\10Doors\10Doors\obj\x86\Debug\10Doors.pdb
+F:\Project 8\10Doors\10Doors\bin\Debug\10Doors.exe
+F:\Project 8\10Doors\10Doors\bin\Debug\10Doors.pdb
+F:\Project 8\10Doors\10Doors\bin\Debug\10Doors.xml
+F:\Project 8\10Doors\10Doors\obj\x86\Debug\_10Doors.Form1.resources
+F:\Project 8\10Doors\10Doors\obj\x86\Debug\_10Doors.Resources.resources
+F:\Project 8\10Doors\10Doors\obj\x86\Debug\10Doors.vbproj.GenerateResource.Cache
+I:\Project 8\10Doors\10Doors\obj\x86\Debug\10Doors.exe
+I:\Project 8\10Doors\10Doors\obj\x86\Debug\10Doors.xml
+I:\Project 8\10Doors\10Doors\obj\x86\Debug\10Doors.pdb
+I:\Project 8\10Doors\10Doors\bin\Debug\10Doors.exe
+I:\Project 8\10Doors\10Doors\bin\Debug\10Doors.pdb
+I:\Project 8\10Doors\10Doors\bin\Debug\10Doors.xml
+I:\Project 8\10Doors\10Doors\obj\x86\Debug\_10Doors.Form1.resources
+I:\Project 8\10Doors\10Doors\obj\x86\Debug\_10Doors.Resources.resources
+I:\Project 8\10Doors\10Doors\obj\x86\Debug\10Doors.vbproj.GenerateResource.Cache

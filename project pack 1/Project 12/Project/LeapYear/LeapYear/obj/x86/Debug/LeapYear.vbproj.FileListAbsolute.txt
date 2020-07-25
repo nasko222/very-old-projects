@@ -1,0 +1,12 @@
+C:\Users\TOTO\AppData\Local\Temporary Projects\LeapYear\bin\Debug\LeapYear.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\LeapYear\bin\Debug\LeapYear.pdb
+C:\Users\TOTO\AppData\Local\Temporary Projects\LeapYear\bin\Debug\LeapYear.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\LeapYear\obj\x86\Debug\LeapYear.Form1.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\LeapYear\obj\x86\Debug\LeapYear.Resources.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\LeapYear\obj\x86\Debug\LeapYear.vbproj.GenerateResource.Cache
+C:\Users\TOTO\AppData\Local\Temporary Projects\LeapYear\obj\x86\Debug\LeapYear.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\LeapYear\obj\x86\Debug\LeapYear.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\LeapYear\obj\x86\Debug\LeapYear.pdb
+F:\proekti\za uchlishte\Project 12\LeapYear\LeapYear\obj\x86\Debug\LeapYear.exe
+F:\proekti\za uchlishte\Project 12\LeapYear\LeapYear\obj\x86\Debug\LeapYear.xml
+F:\proekti\za uchlishte\Project 12\LeapYear\LeapYear\obj\x86\Debug\LeapYear.pdb

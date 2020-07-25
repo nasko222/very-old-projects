@@ -1,0 +1,12 @@
+F:\proekti\za uchlishte\Project 12\LeapYear\LeapYear\bin\Release\LeapYear.exe
+F:\proekti\za uchlishte\Project 12\LeapYear\LeapYear\bin\Release\LeapYear.pdb
+F:\proekti\za uchlishte\Project 12\LeapYear\LeapYear\bin\Release\LeapYear.xml
+F:\proekti\za uchlishte\Project 12\LeapYear\LeapYear\obj\x86\Release\LeapYear.Form1.resources
+F:\proekti\za uchlishte\Project 12\LeapYear\LeapYear\obj\x86\Release\LeapYear.Resources.resources
+F:\proekti\za uchlishte\Project 12\LeapYear\LeapYear\obj\x86\Release\LeapYear.vbproj.GenerateResource.Cache
+F:\proekti\za uchlishte\Project 12\LeapYear\LeapYear\obj\x86\Release\LeapYear.exe
+F:\proekti\za uchlishte\Project 12\LeapYear\LeapYear\obj\x86\Release\LeapYear.xml
+F:\proekti\za uchlishte\Project 12\LeapYear\LeapYear\obj\x86\Release\LeapYear.pdb
+F:\Project 12\Project\LeapYear\LeapYear\obj\x86\Release\LeapYear.exe
+F:\Project 12\Project\LeapYear\LeapYear\obj\x86\Release\LeapYear.xml
+F:\Project 12\Project\LeapYear\LeapYear\obj\x86\Release\LeapYear.pdb

@@ -1,0 +1,99 @@
+{\rtf1\ansi\ansicpg1251\deff0{\fonttbl{\f0\fnil Consolas;}{\f1\fnil\fcharset204 Consolas;}{\f2\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;\red43\green145\blue175;\red163\green21\blue21;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\sa200\sl276\slmult1\cf1\lang9\f0\fs19 Public\cf0  \cf1 Class\cf0  \cf2 Form1\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Form1_Load(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  \cf1 MyBase\cf0 .Load\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Label1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Label1.Click\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Label2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Label2.Click\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TextBox1_TextChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  TextBox1.TextChanged\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TextBox2_TextChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  TextBox2.TextChanged\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button1.Click\par
+        \cf1 If\cf0  TextBox1.Text = Register1.Text \cf1 And\cf0  TextBox2.Text = Register2.Text \cf1 Then\cf0\par
+            MsgBox(\cf3 "\lang1026\f1\'d3\'f1\'ef\'e5\'f8\'ed\'ee\lang9\f0  \lang1026\f1\'e2\'eb\'e8\'e7\'e0\'ed\'e5\lang9\f0 "\cf0 , vbOKOnly + vbInformation, \cf3 "\lang1026\f1\'ca\'e0\'f0\'f2\'e0\lang9\f0  \lang1026\f1\'ed\'e0\lang9\f0  \lang1026\f1\'f1\'fa\'ea\'e2\'ee\'e2\'e8\'f9\'e0\lang9\f0 "\cf0 )\par
+            TextBox1.Text = \cf1 Nothing\cf0\par
+            TextBox2.Text = \cf1 Nothing\cf0\par
+            TextBox1.Hide()\par
+            TextBox2.Hide()\par
+            Label1.Hide()\par
+            Label2.Hide()\par
+            Button1.Hide()\par
+            Button2Done.Hide()\par
+            CheckBox1.Hide()\par
+            Button3.Visible = \cf1 True\cf0\par
+            Label3.Visible = \cf1 True\cf0\par
+            \cf1 Me\cf0 .BackgroundImage = PictureBox2.Image\par
+        \cf1 Else\cf0\par
+            MsgBox(\cf3 "\lang1026\f1\'c3\'f0\'e5\'f8\'ed\'ee\lang9\f0  \lang1026\f1\'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'f1\'ea\'ee\lang9\f0  \lang1026\f1\'e8\'ec\'e5\lang9\f0  \lang1026\f1\'e8\'eb\'e8\lang9\f0  \lang1026\f1\'ef\'e0\'f0\'ee\'eb\'e0\lang9\f0 "\cf0 , vbOKOnly + vbCritical, \cf3 "\lang1026\f1\'ca\'e0\'f0\'f2\'e0\lang9\f0  \lang1026\f1\'ed\'e0\lang9\f0  \lang1026\f1\'f1\'fa\'ea\'e2\'ee\'e2\'e8\'f9\'e0\lang9\f0 "\cf0 )\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CheckBox1_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CheckBox1.CheckedChanged\par
+        TextBox2.PasswordChar = \cf1 Nothing\cf0\par
+        \cf1 If\cf0  CheckBox1.Checked = \cf1 False\cf0  \cf1 Then\cf0\par
+            TextBox2.PasswordChar = \cf3 "*"\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button2.Click\par
+        TextBox1.Text = \cf1 Nothing\cf0\par
+        TextBox2.Text = \cf1 Nothing\cf0\par
+        Button2Done.Visible = \cf1 True\cf0\par
+        Button2.Hide()\par
+        Form2.Show()\par
+        \cf1 Me\cf0 .Hide()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Register1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Register1.Click\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Register2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Register2.Click\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button2Done_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button2Done.Click\par
+        MsgBox(\cf3 "\lang1026\f1\'c2\'e5\'f7\'e5\lang9\f0  \lang1026\f1\'e8\'ec\'e0\'f8\lang9\f0  \lang1026\f1\'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e0\'f6\'e8\'ff\lang9\f0 "\cf0 , vbOKOnly + vbExclamation, \cf3 "\lang1026\f1\'ca\'e0\'f0\'f2\'e0\lang9\f0  \lang1026\f1\'ed\'e0\lang9\f0  \lang1026\f1\'f1\'fa\'ea\'f0\'ee\'e2\'e8\'f9\'e0\lang9\f0 "\cf0 )\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button3_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button3.Click\par
+        TextBox1.Show()\par
+        TextBox2.Show()\par
+        Label1.Show()\par
+        Label2.Show()\par
+        Button1.Show()\par
+        Button2Done.Show()\par
+        CheckBox1.Show()\par
+        Button3.Visible = \cf1 False\cf0\par
+        Label3.Visible = \cf1 False\cf0\par
+        \cf1 Me\cf0 .BackgroundImage = PictureBox1.Image\par
+        CheckBox1.Checked = \cf1 False\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\cf1 End\cf0  \cf1 Class\par
+\cf0\par
+\cf1 Public\cf0  \cf1 Class\cf0  \cf2 Form2\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  CheckBox1_CheckedChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  CheckBox1.CheckedChanged\par
+        TextBox2.PasswordChar = \cf1 Nothing\cf0\par
+        \cf1 If\cf0  CheckBox1.Checked = \cf1 False\cf0  \cf1 Then\cf0\par
+            TextBox2.PasswordChar = \cf3 "*"\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Label1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Label1.Click\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Label2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Label2.Click\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TextBox1_TextChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  TextBox1.TextChanged\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TextBox2_TextChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  TextBox2.TextChanged\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button1.Click\par
+        \cf1 If\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 Or\cf0  TextBox2.Text = \cf1 Nothing\cf0  \cf1 Then\cf0\par
+            MsgBox(\cf3 "\lang1026\f1\'c8\'ec\'e0\lang9\f0  \lang1026\f1\'ef\'f0\'e0\'e7\'ed\'e8\lang9\f0  \lang1026\f1\'ef\'ee\'eb\'e5\'f2\'e0\lang9\f0 "\cf0 , vbOKOnly + vbInformation, \cf3 "\lang1026\f1\'ca\'e0\'f0\'f2\'e0\lang9\f0  \lang1026\f1\'ed\'e0\lang9\f0  \lang1026\f1\'f1\'fa\'ea\'f0\'ee\'e2\'e8\'f9\'e0\lang9\f0 "\cf0 )\par
+        \cf1 Else\cf0\par
+            Form1.Register1.Text = TextBox1.Text\par
+            Form1.Register2.Text = TextBox2.Text\par
+            MsgBox(\cf3 "\lang1026\f1\'d3\'f1\'ef\'e5\'f8\'ed\'e0\lang9\f0  \lang1026\f1\'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e0\'f6\'e8\'ff\lang9\f0 "\cf0 , vbOKOnly + vbInformation, \cf3 "\lang1026\f1\'ca\'e0\'f0\'f2\'e0\lang9\f0  \lang1026\f1\'ed\'e0\lang9\f0  \lang1026\f1\'f1\'fa\'ea\'f0\'ee\'e2\'e8\'f9\'e0\lang9\f0 "\cf0 )\par
+            Form1.Show()\par
+            \cf1 Me\cf0 .Hide()\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Form2_Load(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  \cf1 MyBase\cf0 .Load\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\cf1 End\cf0  \cf1 Class\cf0\f2\fs22\par
+}
+ 

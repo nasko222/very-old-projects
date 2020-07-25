@@ -1,0 +1,11 @@
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\bin\Debug\HelloWorld Project.exe
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\bin\Debug\HelloWorld Project.pdb
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\bin\Debug\HelloWorld Project.xml
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Debug\HelloWorld_Project.Form1.resources
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Debug\HelloWorld_Project.Resources.resources
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Debug\HelloWorld Project.vbproj.GenerateResource.Cache
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Debug\HelloWorld Project.exe
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Debug\HelloWorld Project.xml
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Debug\HelloWorld Project.pdb
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Debug\HelloWorld_Project.Form2.resources
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Debug\HelloWorld_Project.Form3.resources

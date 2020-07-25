@@ -1,0 +1,9 @@
+F:\proekti\za uchlishte\Project 7\Triangle\Triangle\bin\Release\Triangle.exe
+F:\proekti\za uchlishte\Project 7\Triangle\Triangle\bin\Release\Triangle.pdb
+F:\proekti\za uchlishte\Project 7\Triangle\Triangle\bin\Release\Triangle.xml
+F:\proekti\za uchlishte\Project 7\Triangle\Triangle\obj\x86\Release\Triangle.Form1.resources
+F:\proekti\za uchlishte\Project 7\Triangle\Triangle\obj\x86\Release\Triangle.Resources.resources
+F:\proekti\za uchlishte\Project 7\Triangle\Triangle\obj\x86\Release\Triangle.vbproj.GenerateResource.Cache
+F:\proekti\za uchlishte\Project 7\Triangle\Triangle\obj\x86\Release\Triangle.exe
+F:\proekti\za uchlishte\Project 7\Triangle\Triangle\obj\x86\Release\Triangle.xml
+F:\proekti\za uchlishte\Project 7\Triangle\Triangle\obj\x86\Release\Triangle.pdb

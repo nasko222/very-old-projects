@@ -1,0 +1,9 @@
+I:\zele\ID to Birthday\ID to Birthday\bin\Release\Zodiac.exe
+I:\zele\ID to Birthday\ID to Birthday\bin\Release\Zodiac.pdb
+I:\zele\ID to Birthday\ID to Birthday\bin\Release\Zodiac.xml
+I:\zele\ID to Birthday\ID to Birthday\obj\x86\Release\ID_to_Birthday.Form1.resources
+I:\zele\ID to Birthday\ID to Birthday\obj\x86\Release\ID_to_Birthday.Resources.resources
+I:\zele\ID to Birthday\ID to Birthday\obj\x86\Release\ID to Birthday.vbproj.GenerateResource.Cache
+I:\zele\ID to Birthday\ID to Birthday\obj\x86\Release\Zodiac.exe
+I:\zele\ID to Birthday\ID to Birthday\obj\x86\Release\Zodiac.xml
+I:\zele\ID to Birthday\ID to Birthday\obj\x86\Release\Zodiac.pdb

@@ -1,0 +1,191 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Consolas;}{\f1\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue255;\red43\green145\blue175;\red163\green21\blue21;\red0\green128\blue0;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs19 Public\cf0  \cf1 Class\cf0  \cf2 Calculator\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Calculator_Load(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  \cf1 MyBase\cf0 .Load\par
+        MinimizeBox = \cf1 False\cf0\par
+        MaximizeBox = \cf1 False\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Display1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Display1.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  NumberSelect()\par
+        \cf1 If\cf0  MemoryCell1.DataMember = \cf1 Nothing\cf0  \cf1 Then\cf0\par
+            \cf1 If\cf0  \cf1 Not\cf0  Display1.Text = \cf3 "0"\cf0  \cf1 Then\cf0  \cf4 'Anti 0 repeation\cf0\par
+                Display1.Text = Display1.Text + clicked\par
+            \cf1 Else\cf0\par
+                Display1.Text = clicked\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 Else\cf0\par
+            Display1.Text = Display1.Text + clicked \cf4 'display control\cf0\par
+            MemoryCell3.DataMember = MemoryCell3.DataMember + clicked\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Number1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Number1.Click \cf4 'NumberSelection\cf0\par
+        clicked = 1\par
+        \cf1 Call\cf0  NumberSelect()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Number2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Number2.Click\par
+        clicked = 2\par
+        \cf1 Call\cf0  NumberSelect()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Number3_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Number3.Click\par
+        clicked = 3\par
+        \cf1 Call\cf0  NumberSelect()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Number4_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Number4.Click\par
+        clicked = 4\par
+        \cf1 Call\cf0  NumberSelect()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Number5_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Number5.Click\par
+        clicked = 5\par
+        \cf1 Call\cf0  NumberSelect()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Number6_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Number6.Click\par
+        clicked = 6\par
+        \cf1 Call\cf0  NumberSelect()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Number7_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Number7.Click\par
+        clicked = 7\par
+        \cf1 Call\cf0  NumberSelect()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Number8_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Number8.Click\par
+        clicked = 8\par
+        \cf1 Call\cf0  NumberSelect()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Number9_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Number9.Click\par
+        clicked = 9\par
+        \cf1 Call\cf0  NumberSelect()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Number0_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Number0.Click\par
+        clicked = 0\par
+        \cf1 Call\cf0  NumberSelect()\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Add_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Add.Click \cf4 'If MC2=1 Then +-*/ allowed\cf0\par
+        \cf1 If\cf0  \cf1 Not\cf0  MemoryCell2.DataMember = 1 \cf1 Then\cf0\par
+            MemoryCell1.DataMember = \cf3 "+"\cf0\par
+            Label1.Text = Display1.Text\par
+            Display1.Text = Display1.Text + \cf3 "+"\cf0\par
+            MemoryCell2.DataMember = 1\par
+            Number0.Enabled = \cf1 False\cf0\par
+        \cf1 Else\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Subtract_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Subtract.Click\par
+        \cf1 If\cf0  \cf1 Not\cf0  MemoryCell2.DataMember = 1 \cf1 Then\cf0\par
+            MemoryCell1.DataMember = \cf3 "-"\cf0\par
+            Label1.Text = Display1.Text\par
+            Display1.Text = Display1.Text + \cf3 "-"\cf0\par
+            MemoryCell2.DataMember = 1\par
+            Number0.Enabled = \cf1 False\cf0\par
+        \cf1 Else\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Multiply_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Multiply.Click\par
+        \cf1 If\cf0  \cf1 Not\cf0  MemoryCell2.DataMember = 1 \cf1 Then\cf0\par
+            MemoryCell1.DataMember = \cf3 "*"\cf0\par
+            Label1.Text = Display1.Text\par
+            Display1.Text = Display1.Text + \cf3 "*"\cf0\par
+            MemoryCell2.DataMember = 1\par
+            Number0.Enabled = \cf1 False\cf0\par
+        \cf1 Else\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Divide_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Divide.Click\par
+        \cf1 If\cf0  \cf1 Not\cf0  MemoryCell2.DataMember = 1 \cf1 Then\cf0\par
+            MemoryCell1.DataMember = \cf3 "/"\cf0\par
+            Label1.Text = Display1.Text\par
+            Display1.Text = Display1.Text + \cf3 "/"\cf0\par
+            MemoryCell2.DataMember = 1\par
+            Number0.Enabled = \cf1 False\cf0\par
+        \cf1 Else\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Clear_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Clear.Click \cf4 'reset\cf0\par
+        Display1.Text = \cf3 "0"\cf0\par
+        MemoryCell1.DataMember = \cf1 Nothing\cf0\par
+        MemoryCell2.DataMember = 0\par
+        MemoryCell3.DataMember = \cf1 Nothing\cf0\par
+        Number0.Enabled = \cf1 True\cf0\par
+        Label1.Text = \cf1 Nothing\cf0\par
+        Label2.Text = \cf1 Nothing\cf0\par
+        Number1.Enabled = \cf1 True\cf0\par
+        Number2.Enabled = \cf1 True\cf0\par
+        Number3.Enabled = \cf1 True\cf0\par
+        Number4.Enabled = \cf1 True\cf0\par
+        Number5.Enabled = \cf1 True\cf0\par
+        Number6.Enabled = \cf1 True\cf0\par
+        Number7.Enabled = \cf1 True\cf0\par
+        Number8.Enabled = \cf1 True\cf0\par
+        Number9.Enabled = \cf1 True\cf0\par
+        Equal.Enabled = \cf1 True\cf0\par
+        Add.Enabled = \cf1 True\cf0\par
+        Subtract.Enabled = \cf1 True\cf0\par
+        Multiply.Enabled = \cf1 True\cf0\par
+        Divide.Enabled = \cf1 True\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Equal_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Equal.Click \cf4 'Done\cf0\par
+        Label2.Text = MemoryCell3.DataMember\par
+        \cf1 Dim\cf0  a \cf1 As\cf0  \cf1 Integer\cf0  = 0\par
+        a = Label1.Text\par
+        \cf1 Dim\cf0  b \cf1 As\cf0  \cf1 Integer\cf0  = 0\par
+        b = Label2.Text\par
+        \cf1 Dim\cf0  c\par
+        c = MemoryCell1.DataMember\par
+        \cf1 Dim\cf0  d \cf1 As\cf0  \cf1 String\cf0  = 0\par
+        \cf1 If\cf0  c = \cf3 "+"\cf0  \cf1 Then\cf0\par
+            d = a + b\par
+            Display1.Text = d\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  c = \cf3 "-"\cf0  \cf1 Then\cf0\par
+            d = a - b\par
+            Display1.Text = d\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  c = \cf3 "*"\cf0  \cf1 Then\cf0\par
+            d = a * b\par
+            Display1.Text = d\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  c = \cf3 "/"\cf0  \cf1 Then\cf0\par
+            d = a / b\par
+            Display1.Text = d\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        Number1.Enabled = \cf1 False\cf0\par
+        Number2.Enabled = \cf1 False\cf0\par
+        Number3.Enabled = \cf1 False\cf0\par
+        Number4.Enabled = \cf1 False\cf0\par
+        Number5.Enabled = \cf1 False\cf0\par
+        Number6.Enabled = \cf1 False\cf0\par
+        Number7.Enabled = \cf1 False\cf0\par
+        Number8.Enabled = \cf1 False\cf0\par
+        Number9.Enabled = \cf1 False\cf0\par
+        Number0.Enabled = \cf1 False\cf0\par
+        Equal.Enabled = \cf1 False\cf0\par
+        Add.Enabled = \cf1 False\cf0\par
+        Subtract.Enabled = \cf1 False\cf0\par
+        Multiply.Enabled = \cf1 False\cf0\par
+        Divide.Enabled = \cf1 False\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\cf1 End\cf0  \cf1 Class\cf0\par
+\cf1 Module\cf0  \cf2 Module1\cf0\par
+    \cf1 Public\cf0  clicked \cf1 As\cf0  \cf1 String\cf0  \cf4 'For Output As #1\cf0\par
+\cf1 End\cf0  \cf1 Module\par
+\cf0\f1\fs22\par
+}
+ 

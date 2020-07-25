@@ -1,0 +1,10 @@
+F:\proekti\drugi\My Project 1\Notes\Notes\bin\Release\Notes.exe
+F:\proekti\drugi\My Project 1\Notes\Notes\bin\Release\Notes.pdb
+F:\proekti\drugi\My Project 1\Notes\Notes\bin\Release\Notes.xml
+F:\proekti\drugi\My Project 1\Notes\Notes\obj\x86\Release\Notes.Form1.resources
+F:\proekti\drugi\My Project 1\Notes\Notes\obj\x86\Release\Notes.Form2.resources
+F:\proekti\drugi\My Project 1\Notes\Notes\obj\x86\Release\Notes.Resources.resources
+F:\proekti\drugi\My Project 1\Notes\Notes\obj\x86\Release\Notes.vbproj.GenerateResource.Cache
+F:\proekti\drugi\My Project 1\Notes\Notes\obj\x86\Release\Notes.exe
+F:\proekti\drugi\My Project 1\Notes\Notes\obj\x86\Release\Notes.xml
+F:\proekti\drugi\My Project 1\Notes\Notes\obj\x86\Release\Notes.pdb

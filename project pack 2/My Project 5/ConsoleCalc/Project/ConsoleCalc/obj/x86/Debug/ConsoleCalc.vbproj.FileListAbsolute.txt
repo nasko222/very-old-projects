@@ -1,0 +1,11 @@
+C:\Users\TOTO\AppData\Local\Temporary Projects\ConsoleCalc\bin\Debug\ConsoleCalc.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\ConsoleCalc\bin\Debug\ConsoleCalc.pdb
+C:\Users\TOTO\AppData\Local\Temporary Projects\ConsoleCalc\bin\Debug\ConsoleCalc.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\ConsoleCalc\obj\x86\Debug\ConsoleCalc.Resources.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\ConsoleCalc\obj\x86\Debug\ConsoleCalc.vbproj.GenerateResource.Cache
+C:\Users\TOTO\AppData\Local\Temporary Projects\ConsoleCalc\obj\x86\Debug\ConsoleCalc.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\ConsoleCalc\obj\x86\Debug\ConsoleCalc.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\ConsoleCalc\obj\x86\Debug\ConsoleCalc.pdb
+F:\proekti\moi proekti\My Project 5\ConsoleCalc\ConsoleCalc\obj\x86\Debug\ConsoleCalc.exe
+F:\proekti\moi proekti\My Project 5\ConsoleCalc\ConsoleCalc\obj\x86\Debug\ConsoleCalc.xml
+F:\proekti\moi proekti\My Project 5\ConsoleCalc\ConsoleCalc\obj\x86\Debug\ConsoleCalc.pdb

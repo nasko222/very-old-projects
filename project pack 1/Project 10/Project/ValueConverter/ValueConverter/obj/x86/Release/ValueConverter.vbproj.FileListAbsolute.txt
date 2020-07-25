@@ -1,0 +1,12 @@
+I:\Проект 10\ValueConverter\ValueConverter\bin\Release\ValueConverter.exe
+I:\Проект 10\ValueConverter\ValueConverter\bin\Release\ValueConverter.pdb
+I:\Проект 10\ValueConverter\ValueConverter\bin\Release\ValueConverter.xml
+I:\Проект 10\ValueConverter\ValueConverter\obj\x86\Release\ValueConverter.Form1.resources
+I:\Проект 10\ValueConverter\ValueConverter\obj\x86\Release\ValueConverter.Resources.resources
+I:\Проект 10\ValueConverter\ValueConverter\obj\x86\Release\ValueConverter.vbproj.GenerateResource.Cache
+I:\Проект 10\ValueConverter\ValueConverter\obj\x86\Release\ValueConverter.exe
+I:\Проект 10\ValueConverter\ValueConverter\obj\x86\Release\ValueConverter.xml
+I:\Проект 10\ValueConverter\ValueConverter\obj\x86\Release\ValueConverter.pdb
+F:\Project 10\Project\ValueConverter\ValueConverter\obj\x86\Release\ValueConverter.exe
+F:\Project 10\Project\ValueConverter\ValueConverter\obj\x86\Release\ValueConverter.xml
+F:\Project 10\Project\ValueConverter\ValueConverter\obj\x86\Release\ValueConverter.pdb

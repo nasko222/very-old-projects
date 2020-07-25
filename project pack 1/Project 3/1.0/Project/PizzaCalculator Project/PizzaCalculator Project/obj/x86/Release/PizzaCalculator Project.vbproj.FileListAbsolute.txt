@@ -1,0 +1,9 @@
+F:\proekti\za uchlishte\Project 3\PizzaCalculator Project\PizzaCalculator Project\bin\Release\PizzaCalculator Project.exe
+F:\proekti\za uchlishte\Project 3\PizzaCalculator Project\PizzaCalculator Project\bin\Release\PizzaCalculator Project.pdb
+F:\proekti\za uchlishte\Project 3\PizzaCalculator Project\PizzaCalculator Project\bin\Release\PizzaCalculator Project.xml
+F:\proekti\za uchlishte\Project 3\PizzaCalculator Project\PizzaCalculator Project\obj\x86\Release\PizzaCalculator_Project.Form1.resources
+F:\proekti\za uchlishte\Project 3\PizzaCalculator Project\PizzaCalculator Project\obj\x86\Release\PizzaCalculator_Project.Resources.resources
+F:\proekti\za uchlishte\Project 3\PizzaCalculator Project\PizzaCalculator Project\obj\x86\Release\PizzaCalculator Project.vbproj.GenerateResource.Cache
+F:\proekti\za uchlishte\Project 3\PizzaCalculator Project\PizzaCalculator Project\obj\x86\Release\PizzaCalculator Project.exe
+F:\proekti\za uchlishte\Project 3\PizzaCalculator Project\PizzaCalculator Project\obj\x86\Release\PizzaCalculator Project.xml
+F:\proekti\za uchlishte\Project 3\PizzaCalculator Project\PizzaCalculator Project\obj\x86\Release\PizzaCalculator Project.pdb

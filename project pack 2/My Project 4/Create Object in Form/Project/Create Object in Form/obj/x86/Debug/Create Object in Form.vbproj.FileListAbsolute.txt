@@ -1,0 +1,35 @@
+C:\Users\TOTO\AppData\Local\Temporary Projects\Create Object in Form\bin\Debug\Create Object in Form.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Create Object in Form\bin\Debug\Create Object in Form.pdb
+C:\Users\TOTO\AppData\Local\Temporary Projects\Create Object in Form\bin\Debug\Create Object in Form.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Create Object in Form\obj\x86\Debug\Create_Object_in_Form.Form1.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Create Object in Form\obj\x86\Debug\Create_Object_in_Form.Resources.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Create Object in Form\obj\x86\Debug\Create Object in Form.vbproj.GenerateResource.Cache
+C:\Users\TOTO\AppData\Local\Temporary Projects\Create Object in Form\obj\x86\Debug\Create Object in Form.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Create Object in Form\obj\x86\Debug\Create Object in Form.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Create Object in Form\obj\x86\Debug\Create Object in Form.pdb
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create Object in Form.exe
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create Object in Form.xml
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create Object in Form.pdb
+I:\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create Object in Form.exe
+I:\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create Object in Form.xml
+I:\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create Object in Form.pdb
+I:\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create_Object_in_Form.Form1.resources
+I:\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create_Object_in_Form.Resources.resources
+I:\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create Object in Form.vbproj.GenerateResource.Cache
+F:\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create Object in Form.exe
+F:\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create Object in Form.xml
+F:\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create Object in Form.pdb
+F:\My Project 4\Create Object in Form\Create Object in Form\bin\Debug\Create Object in Form.exe
+F:\My Project 4\Create Object in Form\Create Object in Form\bin\Debug\Create Object in Form.pdb
+F:\My Project 4\Create Object in Form\Create Object in Form\bin\Debug\Create Object in Form.xml
+F:\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create_Object_in_Form.Resources.resources
+F:\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create Object in Form.vbproj.GenerateResource.Cache
+F:\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create_Object_in_Form.Class1.resources
+F:\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create_Object_in_Form.Class2.resources
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\bin\Debug\Create Object in Form.exe
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\bin\Debug\Create Object in Form.pdb
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\bin\Debug\Create Object in Form.xml
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create_Object_in_Form.Class1.resources
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create_Object_in_Form.Class2.resources
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create_Object_in_Form.Resources.resources
+F:\proekti\moi proekti\My Project 4\Create Object in Form\Create Object in Form\obj\x86\Debug\Create Object in Form.vbproj.GenerateResource.Cache

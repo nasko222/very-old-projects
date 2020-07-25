@@ -1,0 +1,12 @@
+C:\Users\TOTO\AppData\Local\Temporary Projects\PizzaCalculator Project\bin\Debug\PizzaCalculator Project.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\PizzaCalculator Project\bin\Debug\PizzaCalculator Project.pdb
+C:\Users\TOTO\AppData\Local\Temporary Projects\PizzaCalculator Project\bin\Debug\PizzaCalculator Project.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\PizzaCalculator Project\obj\x86\Debug\PizzaCalculator_Project.Form1.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\PizzaCalculator Project\obj\x86\Debug\PizzaCalculator_Project.Resources.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\PizzaCalculator Project\obj\x86\Debug\PizzaCalculator Project.vbproj.GenerateResource.Cache
+C:\Users\TOTO\AppData\Local\Temporary Projects\PizzaCalculator Project\obj\x86\Debug\PizzaCalculator Project.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\PizzaCalculator Project\obj\x86\Debug\PizzaCalculator Project.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\PizzaCalculator Project\obj\x86\Debug\PizzaCalculator Project.pdb
+F:\proekti\za uchlishte\Project 3\PizzaCalculator Project\PizzaCalculator Project\obj\x86\Debug\PizzaCalculator Project.exe
+F:\proekti\za uchlishte\Project 3\PizzaCalculator Project\PizzaCalculator Project\obj\x86\Debug\PizzaCalculator Project.xml
+F:\proekti\za uchlishte\Project 3\PizzaCalculator Project\PizzaCalculator Project\obj\x86\Debug\PizzaCalculator Project.pdb

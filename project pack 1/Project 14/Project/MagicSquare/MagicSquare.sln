@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Basic Express 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MagicSquare", "MagicSquare\MagicSquare.vbproj", "{A282849A-B72C-40E5-8DBE-47992E176EFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A282849A-B72C-40E5-8DBE-47992E176EFF}.Debug|x86.ActiveCfg = Debug|x86
+		{A282849A-B72C-40E5-8DBE-47992E176EFF}.Debug|x86.Build.0 = Debug|x86
+		{A282849A-B72C-40E5-8DBE-47992E176EFF}.Release|x86.ActiveCfg = Release|x86
+		{A282849A-B72C-40E5-8DBE-47992E176EFF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

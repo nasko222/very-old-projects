@@ -1,0 +1,21 @@
+C:\Users\TOTO\AppData\Local\Temporary Projects\Number Game\bin\Debug\Number Game.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Number Game\bin\Debug\Number Game.pdb
+C:\Users\TOTO\AppData\Local\Temporary Projects\Number Game\bin\Debug\Number Game.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Number Game\obj\x86\Debug\Number_Game.Form1.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Number Game\obj\x86\Debug\Number_Game.Resources.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Number Game\obj\x86\Debug\Number Game.vbproj.GenerateResource.Cache
+C:\Users\TOTO\AppData\Local\Temporary Projects\Number Game\obj\x86\Debug\Number Game.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Number Game\obj\x86\Debug\Number Game.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Number Game\obj\x86\Debug\Number Game.pdb
+F:\proekti\moi proekti\My Project 4\Number Game\Number Game\obj\x86\Debug\Number Game.exe
+F:\proekti\moi proekti\My Project 4\Number Game\Number Game\obj\x86\Debug\Number Game.xml
+F:\proekti\moi proekti\My Project 4\Number Game\Number Game\obj\x86\Debug\Number Game.pdb
+F:\proekti\moi proekti\My Project 3\Project\Number Game\Number Game\bin\Debug\Number Game.exe
+F:\proekti\moi proekti\My Project 3\Project\Number Game\Number Game\bin\Debug\Number Game.pdb
+F:\proekti\moi proekti\My Project 3\Project\Number Game\Number Game\bin\Debug\Number Game.xml
+F:\proekti\moi proekti\My Project 3\Project\Number Game\Number Game\obj\x86\Debug\Number_Game.Form1.resources
+F:\proekti\moi proekti\My Project 3\Project\Number Game\Number Game\obj\x86\Debug\Number_Game.Resources.resources
+F:\proekti\moi proekti\My Project 3\Project\Number Game\Number Game\obj\x86\Debug\Number Game.vbproj.GenerateResource.Cache
+F:\proekti\moi proekti\My Project 3\Project\Number Game\Number Game\obj\x86\Debug\Number Game.exe
+F:\proekti\moi proekti\My Project 3\Project\Number Game\Number Game\obj\x86\Debug\Number Game.xml
+F:\proekti\moi proekti\My Project 3\Project\Number Game\Number Game\obj\x86\Debug\Number Game.pdb

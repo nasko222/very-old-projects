@@ -1,0 +1,156 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Consolas;}{\f1\fnil\fcharset204 Consolas;}{\f2\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue255;\red43\green145\blue175;\red163\green21\blue21;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs19 Public\cf0  \cf1 Class\cf0  \cf2 Form1\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Form1_Load(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  \cf1 MyBase\cf0 .Load\par
+        MaximizeBox = \cf1 False\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Label1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Label1.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Label2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Label2.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Label3_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Label3.Click\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TextBox1_TextChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  TextBox1.TextChanged\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  TextBox1_KeyPress(\cf1 ByVal\cf0  sender \cf1 As\cf0  \cf1 Object\cf0 , \cf1 ByVal\cf0  e \cf1 As\cf0  System.Windows.Forms.KeyPressEventArgs) \cf1 Handles\cf0  TextBox1.KeyPress\par
+        \cf1 If\cf0  Asc(e.KeyChar) <> 8 \cf1 Then\cf0\par
+            \cf1 If\cf0  TextBox1.Text = \cf3 "0"\cf0  \cf1 Then\cf0\par
+                e.Handled = \cf1 True\cf0\par
+            \cf1 Else\cf0\par
+                \cf1 If\cf0  Asc(e.KeyChar) < 48 \cf1 Or\cf0  Asc(e.KeyChar) > 57 \cf1 Then\cf0\par
+                    e.Handled = \cf1 True\cf0\par
+                \cf1 End\cf0  \cf1 If\cf0\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  ComboBox1_SelectedIndexChanged(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  ComboBox1.SelectedIndexChanged\par
+\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button1_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button1.Click\par
+        \cf1 If\cf0  ComboBox1.SelectedItem = \cf3 "\lang1026\f1\'d4\'f3\'f2\'e1\'ee\'eb\lang1033\f0 "\cf0  \cf1 Then\cf0\par
+            \cf1 Dim\cf0  cal \cf1 As\cf0  \cf1 Integer\cf0\par
+            \cf1 If\cf0  IsNumeric(TextBox1.Text) \cf1 Then\cf0\par
+                cal = TextBox1.Text\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+            cal = cal * 6.183\par
+            Member1.Text = cal\par
+            \cf1 If\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 Or\cf0  TextBox1.Text = 0 \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'cc\'ee\'eb\'ff\lang1033\f0  \lang1026\f1\'e2\'fa\'e2\'e5\'e4\'e5\'f2\'e5\lang1033\f0  \lang1026\f1\'e2\'f0\'e5\'ec\'e5\lang1033\f0 "\cf0 )\par
+            \cf1 ElseIf\cf0  TextBox1.Text = 1 \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'d7\'f0\'e5\'e7\lang1033\f0  \lang1026\f1\'f4\'f3\'f2\'e1\'ee\'eb\lang1033\f0  \lang1026\f1\'e2\'e8\'e5\lang1033\f0  \lang1026\f1\'f9\'e5\lang1033\f0  \lang1026\f1\'e8\'e7\'e3\'ee\'f0\'e8\'f2\'e5\lang1033\f0  "\cf0  + Member1.Text + \cf3 " \lang1026\f1\'ea\'e0\'eb\'ee\'f0\'e8\'e8\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ec\'e8\'ed\'f3\'f2\'e0\lang1033\f0 "\cf0 )\par
+            \cf1 Else\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'d7\'f0\'e5\'e7\lang1033\f0  \lang1026\f1\'f4\'f3\'f2\'e1\'ee\'eb\lang1033\f0  \lang1026\f1\'e2\'e8\'e5\lang1033\f0  \lang1026\f1\'f9\'e5\lang1033\f0  \lang1026\f1\'e8\'e7\'e3\'ee\'f0\'e8\'f2\'e5\lang1033\f0  "\cf0  + Member1.Text + \cf3 " \lang1026\f1\'ea\'e0\'eb\'ee\'f0\'e8\'e8\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ec\'e8\'ed\'f3\'f2\'e8\lang1033\f0 "\cf0 )\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  ComboBox1.SelectedItem = \cf3 "\lang1026\f1\'c1\'e0\'f1\'ea\'e5\'f2\'e1\'ee\'eb\lang1033\f0 "\cf0  \cf1 Then\cf0\par
+            \cf1 Dim\cf0  cal \cf1 As\cf0  \cf1 Integer\cf0\par
+            \cf1 If\cf0  IsNumeric(TextBox1.Text) \cf1 Then\cf0\par
+                cal = TextBox1.Text\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+            cal = cal * 7.466\par
+            Member1.Text = cal\par
+            \cf1 If\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 Or\cf0  TextBox1.Text = 0 \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'cc\'ee\'eb\'ff\lang1033\f0  \lang1026\f1\'e2\'fa\'e2\'e5\'e4\'e5\'f2\'e5\lang1033\f0  \lang1026\f1\'e2\'f0\'e5\'ec\'e5\lang1033\f0 "\cf0 )\par
+            \cf1 ElseIf\cf0  TextBox1.Text = 1 \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'d7\'f0\'e5\'e7\lang1033\f0  \lang1026\f1\'e1\'e0\'f1\'ea\'e5\'f2\'e1\'ee\'eb\lang1033\f0  \lang1026\f1\'e2\'e8\'e5\lang1033\f0  \lang1026\f1\'f9\'e5\lang1033\f0  \lang1026\f1\'e8\'e7\'e3\'ee\'f0\'e8\'f2\'e5\lang1033\f0  "\cf0  + Member1.Text + \cf3 " \lang1026\f1\'ea\'e0\'eb\'ee\'f0\'e8\'e8\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ec\'e8\'ed\'f3\'f2\'e0\lang1033\f0 "\cf0 )\par
+            \cf1 Else\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'d7\'f0\'e5\'e7\lang1033\f0  \lang1026\f1\'e1\'e0\'f1\'ea\'e5\'f2\'e1\'ee\'eb\lang1033\f0  \lang1026\f1\'e2\'e8\'e5\lang1033\f0  \lang1026\f1\'f9\'e5\lang1033\f0  \lang1026\f1\'e8\'e7\'e3\'ee\'f0\'e8\'f2\'e5\lang1033\f0  "\cf0  + Member1.Text + \cf3 " \lang1026\f1\'ea\'e0\'eb\'ee\'f0\'e8\'e8\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ec\'e8\'ed\'f3\'f2\'e8\lang1033\f0 "\cf0 )\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  ComboBox1.SelectedItem = \cf3 "\lang1026\f1\'d2\'e5\'ed\'e8\'f1\lang1033\f0 "\cf0  \cf1 Then\cf0\par
+            \cf1 Dim\cf0  cal \cf1 As\cf0  \cf1 Integer\cf0\par
+            \cf1 If\cf0  IsNumeric(TextBox1.Text) \cf1 Then\cf0\par
+                cal = TextBox1.Text\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+            cal = cal * 9.986\par
+            Member1.Text = cal\par
+            \cf1 If\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 Or\cf0  TextBox1.Text = 0 \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'cc\'ee\'eb\'ff\lang1033\f0  \lang1026\f1\'e2\'fa\'e2\'e5\'e4\'e5\'f2\'e5\lang1033\f0  \lang1026\f1\'e2\'f0\'e5\'ec\'e5\lang1033\f0 "\cf0 )\par
+            \cf1 ElseIf\cf0  TextBox1.Text = 1 \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'d7\'f0\'e5\'e7\lang1033\f0  \lang1026\f1\'f2\'e5\'ed\'e8\'f1\lang1033\f0  \lang1026\f1\'e2\'e8\'e5\lang1033\f0  \lang1026\f1\'f9\'e5\lang1033\f0  \lang1026\f1\'e8\'e7\'e3\'ee\'f0\'e8\'f2\'e5\lang1033\f0  "\cf0  + Member1.Text + \cf3 " \lang1026\f1\'ea\'e0\'eb\'ee\'f0\'e8\'e8\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ec\'e8\'ed\'f3\'f2\'e0\lang1033\f0 "\cf0 )\par
+            \cf1 Else\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'d7\'f0\'e5\'e7\lang1033\f0  \lang1026\f1\'f2\'e5\'ed\'e8\'f1\lang1033\f0  \lang1026\f1\'e2\'e8\'e5\lang1033\f0  \lang1026\f1\'f9\'e5\lang1033\f0  \lang1026\f1\'e8\'e7\'e3\'ee\'f0\'e8\'f2\'e5\lang1033\f0  "\cf0  + Member1.Text + \cf3 " \lang1026\f1\'ea\'e0\'eb\'ee\'f0\'e8\'e8\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ec\'e8\'ed\'f3\'f2\'e8\lang1033\f0 "\cf0 )\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  ComboBox1.SelectedItem = \cf3 "\lang1026\f1\'cb\'e5\'ea\'e0\lang1033\f0  \lang1026\f1\'e0\'f2\'eb\'e5\'f2\'e8\'ea\'e0\lang1033\f0 "\cf0  \cf1 Then\cf0\par
+            \cf1 Dim\cf0  cal \cf1 As\cf0  \cf1 Integer\cf0\par
+            \cf1 If\cf0  IsNumeric(TextBox1.Text) \cf1 Then\cf0\par
+                cal = TextBox1.Text\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+            cal = cal * 5.783\par
+            Member1.Text = cal\par
+            \cf1 If\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 Or\cf0  TextBox1.Text = 0 \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'cc\'ee\'eb\'ff\lang1033\f0  \lang1026\f1\'e2\'fa\'e2\'e5\'e4\'e5\'f2\'e5\lang1033\f0  \lang1026\f1\'e2\'f0\'e5\'ec\'e5\lang1033\f0 "\cf0 )\par
+            \cf1 ElseIf\cf0  TextBox1.Text = 1 \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'d7\'f0\'e5\'e7\lang1033\f0  \lang1026\f1\'eb\'e5\'ea\'e0\lang1033\f0  \lang1026\f1\'e0\'f2\'eb\'e5\'f2\'e8\'ea\'e0\lang1033\f0  \lang1026\f1\'e2\'e8\'e5\lang1033\f0  \lang1026\f1\'f9\'e5\lang1033\f0  \lang1026\f1\'e8\'e7\'e3\'ee\'f0\'e8\'f2\'e5\lang1033\f0  "\cf0  + Member1.Text + \cf3 " \lang1026\f1\'ea\'e0\'eb\'ee\'f0\'e8\'e8\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ec\'e8\'ed\'f3\'f2\'e0\lang1033\f0 "\cf0 )\par
+            \cf1 Else\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'d7\'f0\'e5\'e7\lang1033\f0  \lang1026\f1\'eb\'e5\'ea\'e0\lang1033\f0  \lang1026\f1\'e0\'f2\'eb\'e5\'f2\'e8\'ea\'e0\lang1033\f0  \lang1026\f1\'e2\'e8\'e5\lang1033\f0  \lang1026\f1\'f9\'e5\lang1033\f0  \lang1026\f1\'e8\'e7\'e3\'ee\'f0\'e8\'f2\'e5\lang1033\f0  "\cf0  + Member1.Text + \cf3 " \lang1026\f1\'ea\'e0\'eb\'ee\'f0\'e8\'e8\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ec\'e8\'ed\'f3\'f2\'e8\lang1033\f0 "\cf0 )\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  ComboBox1.SelectedItem = \cf3 "\lang1026\f1\'c2\'ee\'eb\'e5\'e9\'e1\'ee\'eb\lang1033\f0 "\cf0  \cf1 Then\cf0\par
+            \cf1 Dim\cf0  cal \cf1 As\cf0  \cf1 Integer\cf0\par
+            \cf1 If\cf0  IsNumeric(TextBox1.Text) \cf1 Then\cf0\par
+                cal = TextBox1.Text\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+            cal = cal * 6.533\par
+            Member1.Text = cal\par
+            \cf1 If\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 Or\cf0  TextBox1.Text = 0 \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'cc\'ee\'eb\'ff\lang1033\f0  \lang1026\f1\'e2\'fa\'e2\'e5\'e4\'e5\'f2\'e5\lang1033\f0  \lang1026\f1\'e2\'f0\'e5\'ec\'e5\lang1033\f0 "\cf0 )\par
+            \cf1 ElseIf\cf0  TextBox1.Text = 1 \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'d7\'f0\'e5\'e7\lang1033\f0  \lang1026\f1\'e2\'ee\'eb\'e5\'e9\'e1\'ee\'eb\lang1033\f0  \lang1026\f1\'e2\'e8\'e5\lang1033\f0  \lang1026\f1\'f9\'e5\lang1033\f0  \lang1026\f1\'e8\'e7\'e3\'ee\'f0\'e8\'f2\'e5\lang1033\f0  "\cf0  + Member1.Text + \cf3 " \lang1026\f1\'ea\'e0\'eb\'ee\'f0\'e8\'e8\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ec\'e8\'ed\'f3\'f2\'e0\lang1033\f0 "\cf0 )\par
+            \cf1 Else\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'d7\'f0\'e5\'e7\lang1033\f0  \lang1026\f1\'e2\'ee\'eb\'e5\'e9\'e1\'ee\'eb\lang1033\f0  \lang1026\f1\'e2\'e8\'e5\lang1033\f0  \lang1026\f1\'f9\'e5\lang1033\f0  \lang1026\f1\'e8\'e7\'e3\'ee\'f0\'e8\'f2\'e5\lang1033\f0  "\cf0  + Member1.Text + \cf3 " \lang1026\f1\'ea\'e0\'eb\'ee\'f0\'e8\'e8\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ec\'e8\'ed\'f3\'f2\'e8\lang1033\f0 "\cf0 )\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  ComboBox1.SelectedItem = \cf3 "\lang1026\f1\'d4\'e8\'f2\'ed\'e5\'f1\lang1033\f0 "\cf0  \cf1 Then\cf0\par
+            \cf1 Dim\cf0  cal \cf1 As\cf0  \cf1 Integer\cf0\par
+            \cf1 If\cf0  IsNumeric(TextBox1.Text) \cf1 Then\cf0\par
+                cal = TextBox1.Text\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+            cal = cal * 7.467\par
+            Member1.Text = cal\par
+            \cf1 If\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 Or\cf0  TextBox1.Text = 0 \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'cc\'ee\'eb\'ff\lang1033\f0  \lang1026\f1\'e2\'fa\'e2\'e5\'e4\'e5\'f2\'e5\lang1033\f0  \lang1026\f1\'e2\'f0\'e5\'ec\'e5\lang1033\f0 "\cf0 )\par
+            \cf1 ElseIf\cf0  TextBox1.Text = 1 \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'d7\'f0\'e5\'e7\lang1033\f0  \lang1026\f1\'f4\'e8\'f2\'ed\'e5\'f1\lang1033\f0  \lang1026\f1\'e2\'e8\'e5\lang1033\f0  \lang1026\f1\'f9\'e5\lang1033\f0  \lang1026\f1\'e8\'e7\'e3\'ee\'f0\'e8\'f2\'e5\lang1033\f0  "\cf0  + Member1.Text + \cf3 " \lang1026\f1\'ea\'e0\'eb\'ee\'f0\'e8\'e8\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ec\'e8\'ed\'f3\'f2\'e0\lang1033\f0 "\cf0 )\par
+            \cf1 Else\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'d7\'f0\'e5\'e7\lang1033\f0  \lang1026\f1\'f4\'e8\'f2\'ed\'e5\'f1\lang1033\f0  \lang1026\f1\'e2\'e8\'e5\lang1033\f0  \lang1026\f1\'f9\'e5\lang1033\f0  \lang1026\f1\'e8\'e7\'e3\'ee\'f0\'e8\'f2\'e5\lang1033\f0  "\cf0  + Member1.Text + \cf3 " \lang1026\f1\'ea\'e0\'eb\'ee\'f0\'e8\'e8\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ec\'e8\'ed\'f3\'f2\'e8\lang1033\f0 "\cf0 )\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 If\cf0  ComboBox1.SelectedItem = \cf3 "\lang1026\f1\'cf\'eb\'f3\'e2\'e0\'ed\'e5\lang1033\f0 "\cf0  \cf1 Then\cf0\par
+            \cf1 Dim\cf0  cal \cf1 As\cf0  \cf1 Integer\cf0\par
+            \cf1 If\cf0  IsNumeric(TextBox1.Text) \cf1 Then\cf0\par
+                cal = TextBox1.Text\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+            cal = cal * 7.916\par
+            Member1.Text = cal\par
+            \cf1 If\cf0  TextBox1.Text = \cf1 Nothing\cf0  \cf1 Or\cf0  TextBox1.Text = 0 \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'cc\'ee\'eb\'ff\lang1033\f0  \lang1026\f1\'e2\'fa\'e2\'e5\'e4\'e5\'f2\'e5\lang1033\f0  \lang1026\f1\'e2\'f0\'e5\'ec\'e5\lang1033\f0 "\cf0 )\par
+            \cf1 ElseIf\cf0  TextBox1.Text = 1 \cf1 Then\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'d7\'f0\'e5\'e7\lang1033\f0  \lang1026\f1\'ef\'eb\'f3\'e2\'e0\'ed\'e5\lang1033\f0  \lang1026\f1\'e2\'e8\'e5\lang1033\f0  \lang1026\f1\'f9\'e5\lang1033\f0  \lang1026\f1\'e8\'e7\'e3\'ee\'f0\'e8\'f2\'e5\lang1033\f0  "\cf0  + Member1.Text + \cf3 " \lang1026\f1\'ea\'e0\'eb\'ee\'f0\'e8\'e8\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ec\'e8\'ed\'f3\'f2\'e0\lang1033\f0 "\cf0 )\par
+            \cf1 Else\cf0\par
+                MessageBox.Show(\cf3 "\lang1026\f1\'d7\'f0\'e5\'e7\lang1033\f0  \lang1026\f1\'ef\'eb\'f3\'e2\'e0\'ed\'e5\lang1033\f0  \lang1026\f1\'e2\'e8\'e5\lang1033\f0  \lang1026\f1\'f9\'e5\lang1033\f0  \lang1026\f1\'e8\'e7\'e3\'ee\'f0\'e8\'f2\'e5\lang1033\f0  "\cf0  + Member1.Text + \cf3 " \lang1026\f1\'ea\'e0\'eb\'ee\'f0\'e8\'e8\lang1033\f0  \lang1026\f1\'e7\'e0\lang1033\f0  "\cf0  + TextBox1.Text + \cf3 " \lang1026\f1\'ec\'e8\'ed\'f3\'f2\'e8\lang1033\f0 "\cf0 )\par
+            \cf1 End\cf0  \cf1 If\cf0\par
+        \cf1 End\cf0  \cf1 If\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\par
+    \cf1 Private\cf0  \cf1 Sub\cf0  Button2_Click(\cf1 ByVal\cf0  sender \cf1 As\cf0  System.Object, \cf1 ByVal\cf0  e \cf1 As\cf0  System.EventArgs) \cf1 Handles\cf0  Button2.Click\par
+        ComboBox1.Text = \cf1 Nothing\cf0\par
+        TextBox1.Text = \cf1 Nothing\cf0\par
+    \cf1 End\cf0  \cf1 Sub\cf0\par
+\cf1 End\cf0  \cf1 Class\par
+\cf0\f2\fs22\par
+}
+ 

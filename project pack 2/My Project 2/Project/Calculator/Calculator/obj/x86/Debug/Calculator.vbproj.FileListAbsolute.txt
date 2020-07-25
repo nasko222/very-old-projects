@@ -1,0 +1,21 @@
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calculator\bin\Debug\Calculator.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calculator\bin\Debug\Calculator.pdb
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calculator\bin\Debug\Calculator.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calculator\obj\x86\Debug\Calculator.Resources.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calculator\obj\x86\Debug\Calculator.vbproj.GenerateResource.Cache
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calculator\obj\x86\Debug\Calculator.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calculator\obj\x86\Debug\Calculator.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calculator\obj\x86\Debug\Calculator.pdb
+C:\Users\TOTO\AppData\Local\Temporary Projects\Calculator\obj\x86\Debug\Calculator.Calculator.resources
+F:\proekti\drugi\My Project 5\Calculator\Calculator\obj\x86\Debug\Calculator.exe
+F:\proekti\drugi\My Project 5\Calculator\Calculator\obj\x86\Debug\Calculator.xml
+F:\proekti\drugi\My Project 5\Calculator\Calculator\obj\x86\Debug\Calculator.pdb
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\bin\Debug\Calculator.exe
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\bin\Debug\Calculator.pdb
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\bin\Debug\Calculator.xml
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\obj\x86\Debug\Calculator.Calculator.resources
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\obj\x86\Debug\Calculator.Resources.resources
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\obj\x86\Debug\Calculator.vbproj.GenerateResource.Cache
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\obj\x86\Debug\Calculator.exe
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\obj\x86\Debug\Calculator.xml
+F:\proekti\moi proekti\My Project 2\Project\Calculator\Calculator\obj\x86\Debug\Calculator.pdb

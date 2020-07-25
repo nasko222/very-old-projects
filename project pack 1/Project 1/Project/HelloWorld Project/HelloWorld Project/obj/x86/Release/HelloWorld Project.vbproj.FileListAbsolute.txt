@@ -1,0 +1,15 @@
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\bin\Release\HelloWorld Project.exe.manifest
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\bin\Release\HelloWorld Project.application
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\bin\Release\HelloWorld Project.exe
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\bin\Release\HelloWorld Project.pdb
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\bin\Release\HelloWorld Project.xml
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Release\HelloWorld_Project.Form1.resources
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Release\HelloWorld_Project.Form2.resources
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Release\HelloWorld_Project.Form3.resources
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Release\HelloWorld_Project.Resources.resources
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Release\HelloWorld Project.vbproj.GenerateResource.Cache
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Release\HelloWorld Project.exe.manifest
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Release\HelloWorld Project.application
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Release\HelloWorld Project.exe
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Release\HelloWorld Project.xml
+F:\proekti\Project 1\HelloWorld Project\HelloWorld Project\obj\x86\Release\HelloWorld Project.pdb

@@ -1,0 +1,12 @@
+C:\Users\TOTO\AppData\Local\Temporary Projects\Sudoku\bin\Debug\Sudoku.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Sudoku\bin\Debug\Sudoku.pdb
+C:\Users\TOTO\AppData\Local\Temporary Projects\Sudoku\bin\Debug\Sudoku.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Sudoku\obj\x86\Debug\Sudoku.Form1.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Sudoku\obj\x86\Debug\Sudoku.Resources.resources
+C:\Users\TOTO\AppData\Local\Temporary Projects\Sudoku\obj\x86\Debug\Sudoku.vbproj.GenerateResource.Cache
+C:\Users\TOTO\AppData\Local\Temporary Projects\Sudoku\obj\x86\Debug\Sudoku.exe
+C:\Users\TOTO\AppData\Local\Temporary Projects\Sudoku\obj\x86\Debug\Sudoku.xml
+C:\Users\TOTO\AppData\Local\Temporary Projects\Sudoku\obj\x86\Debug\Sudoku.pdb
+F:\proekti\za uchlishte\Project 18\Sudoku\Sudoku\obj\x86\Debug\Sudoku.exe
+F:\proekti\za uchlishte\Project 18\Sudoku\Sudoku\obj\x86\Debug\Sudoku.xml
+F:\proekti\za uchlishte\Project 18\Sudoku\Sudoku\obj\x86\Debug\Sudoku.pdb
